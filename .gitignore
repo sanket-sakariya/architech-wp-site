@@ -1,0 +1,18 @@
+node_modules/
+comparison/
+comparison-white-interiors/
+scraped/
+scraped-villa-minah/
+scraped-white-interiors/
+verification/
+images/
+WhatsApp Unknown 2026-07-18 at 8.41.06 AM/
+*.js
+/package.json
+/package-lock.json
+/plan.md
+/index.html
+/villa-minah.html
+/white-interiors.html
+graphify-out/
+site/_url_map.json
