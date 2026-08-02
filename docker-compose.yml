@@ -1,0 +1,51 @@
+services:
+  db:
+    image: mariadb:10.11
+    container_name: jija_db
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass
+      MYSQL_DATABASE: wordpress
+      MYSQL_USER: wordpress
+      MYSQL_PASSWORD: wordpress
+    volumes:
+      - jija_db_data:/var/lib/mysql
+
+  wordpress:
+    image: wordpress:latest
+    container_name: jija_wp
+    restart: unless-stopped
+    depends_on:
+      - db
+    ports:
+      - "8083:80"
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: wordpress
+      WORDPRESS_DB_NAME: wordpress
+    volumes:
+      - jija_wp_data:/var/www/html
+      - ./jija-theme:/var/www/html/wp-content/themes/jija-theme
+
+  wpcli:
+    image: wordpress:cli
+    container_name: jija_wpcli
+    depends_on:
+      - wordpress
+      - db
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: wordpress
+      WORDPRESS_DB_NAME: wordpress
+    volumes:
+      - jija_wp_data:/var/www/html
+      - ./jija-theme:/var/www/html/wp-content/themes/jija-theme
+    entrypoint: wp
+    command: "--info"
+    user: "33:33"
+
+volumes:
+  jija_db_data:
+  jija_wp_data:

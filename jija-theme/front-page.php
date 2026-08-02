@@ -3,7 +3,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
 
-	<title>Tadao – Architecture and Interior Design Theme</title>
+	
 <meta name="robots" content="max-image-preview:large">
 
 <!-- Google Tag Manager for WordPress by gtm4wp.com -->
@@ -110,7 +110,7 @@ var woocommerce_params = {"ajax_url":"/wp-admin/admin-ajax.php","wc_ajax_url":"/
 <meta property="profile:username" content="admin">
 <!-- /OG -->
 
-<link rel="https://api.w.org/" href="https://tadao.qodeinteractive.com/wp-json/"><link rel="alternate" title="JSON" type="application/json" href="https://tadao.qodeinteractive.com/wp-json/wp/v2/pages/22"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="index.html">
+<link rel="https://api.w.org/" href="https://tadao.qodeinteractive.com/wp-json/"><link rel="alternate" title="JSON" type="application/json" href="https://tadao.qodeinteractive.com/wp-json/wp/v2/pages/22"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="/">
 <meta name="generator" content="WordPress 7.0">
 <meta name="generator" content="WooCommerce 10.8.1">
 <link rel="canonical" href="https://tadao.qodeinteractive.com/">
@@ -208,8 +208,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	overflow: hidden;
 }
 </style>
-<script src="https://maps.googleapis.com/maps-api-v3/api/js/65/11b/util.js"></script><script src="https://maps.googleapis.com/maps-api-v3/api/js/65/11b/marker.js"></script><script src="https://maps.googleapis.com/maps-api-v3/api/js/65/11b/common.js"></script><script src="https://maps.googleapis.com/maps-api-v3/api/js/65/11b/main.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/65/11b/map.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/65/11b/geocoder.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps/api/js/AuthenticationService.Authenticate?1shttps%3A%2F%2Ftadao.qodeinteractive.com%2F&amp;4sAIzaSyB72bkezyt1bd08Sbo_c-Dt4kUfRPCWOF8&amp;8b0&amp;callback=_xdc_._ni42cb&amp;key=AIzaSyB72bkezyt1bd08Sbo_c-Dt4kUfRPCWOF8&amp;token=95117"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/65/11b/infowindow.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps/api/js/GeocodeService.Search?4s162%20E%20End%20Rd%2C%20London%20N2%200TA%2C%20UK&amp;9sen-US&amp;r_url=https%3A%2F%2Ftadao.qodeinteractive.com%2F&amp;callback=_xdc_._ozv0ha&amp;key=AIzaSyB72bkezyt1bd08Sbo_c-Dt4kUfRPCWOF8&amp;token=74806"></script><style>.qodef-header-sticky{display:none!important}.qodef-mobile-header-navigation{display:none!important}#qodef-page-mobile-header{display:none!important}.qodef-header-sticky,.qodef-header-sticky-inner{display:none!important}[data-id="65ac311"]{max-height:554px;overflow:hidden}</style></head>
+<script src="https://maps.googleapis.com/maps-api-v3/api/js/65/11b/util.js"></script><script src="https://maps.googleapis.com/maps-api-v3/api/js/65/11b/marker.js"></script><script src="https://maps.googleapis.com/maps-api-v3/api/js/65/11b/common.js"></script><script src="https://maps.googleapis.com/maps-api-v3/api/js/65/11b/main.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/65/11b/map.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/65/11b/geocoder.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps/api/js/AuthenticationService.Authenticate?1shttps%3A%2F%2Ftadao.qodeinteractive.com%2F&amp;4sAIzaSyB72bkezyt1bd08Sbo_c-Dt4kUfRPCWOF8&amp;8b0&amp;callback=_xdc_._ni42cb&amp;key=AIzaSyB72bkezyt1bd08Sbo_c-Dt4kUfRPCWOF8&amp;token=95117"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/65/11b/infowindow.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps/api/js/GeocodeService.Search?4s162%20E%20End%20Rd%2C%20London%20N2%200TA%2C%20UK&amp;9sen-US&amp;r_url=https%3A%2F%2Ftadao.qodeinteractive.com%2F&amp;callback=_xdc_._ozv0ha&amp;key=AIzaSyB72bkezyt1bd08Sbo_c-Dt4kUfRPCWOF8&amp;token=74806"></script><style>.qodef-header-sticky{display:none!important}.qodef-mobile-header-navigation{display:none!important}#qodef-page-mobile-header{display:none!important}.qodef-header-sticky,.qodef-header-sticky-inner{display:none!important}[data-id="65ac311"]{max-height:554px;overflow:hidden}</style><?php wp_head(); ?>
+</head>
 <body class="home wp-singular page-template page-template-page-full-width page-template-page-full-width-php page page-id-22 wp-theme-tadao theme-tadao qi-blocks-1.4.9 qodef-gutenberg--no-touch qode-framework-1.2.6 woocommerce-js qodef-qi--no-touch qi-addons-for-elementor-1.10 tadao-core-1.2 tadao-1.1.1 qodef-content-grid-1300 qodef-back-to-top--enabled qodef-content-behind-header qodef-header--switch qodef-header-appearance--sticky qodef-header--transparent qodef-content--behind-header qodef-mobile-header--standard qodef-drop-down-second--full-width qodef-drop-down-second--default qode-export-1.0 qodef-search--fullscreen elementor-default elementor-kit-5 elementor-page elementor-page-22 qodef-browser--chrome e--ua-blink e--ua-webkit rs-safari" itemscope="" itemtype="https://schema.org/WebPage" data-elementor-device-mode="laptop" style="">
+<?php wp_body_open(); ?>
+
 	
 <!-- GTM Container placement set to automatic -->
 <!-- Google Tag Manager (noscript) -->
@@ -232,41 +235,41 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<ul id="menu-switch-menu" class="menu"><li id="menu-item-2109" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-2109 qodef-menu-item--narrow"><a href="#"><span class="qodef-menu-item-text">Home<svg class="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="29.414" height="10"><path d="M25 5H0"></path><path d="m29.414 5-8.75 5V0Z"></path></svg></span></a>
 <div class="qodef-drop-down-second"><div class="qodef-drop-down-second-inner"><ul class="sub-menu" style="top: -39px; width: 140px; --qodef-submenu-width: 140px;"><li class="qodef-menu--back"><a href="#"><svg class="qodef-svg--arrow-left" xmlns="http://www.w3.org/2000/svg" width="35" height="10"><g><path d="M5.07 4.5h30"></path><path d="m0 4.5 8.75-5v10Z"></path></g></svg></a></li>
 	<li id="menu-item-2110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-22 current_page_item menu-item-2110"><a href="https://tadao.qodeinteractive.com/"><span class="qodef-menu-item-text">Main Home</span></a></li>
-	<li id="menu-item-5943" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5943"><a href="index.html"><span class="qodef-menu-item-text">Architecture Studio</span></a></li>
-	<li id="menu-item-2111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2111"><a href="index.html"><span class="qodef-menu-item-text">Architecture Home</span></a></li>
-	<li id="menu-item-2112" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2112"><a href="index.html"><span class="qodef-menu-item-text">Interior Design Studio</span></a></li>
-	<li id="menu-item-2119" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2119"><a href="index.html"><span class="qodef-menu-item-text">Furniture Design</span></a></li>
-	<li id="menu-item-5944" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5944"><a href="index.html"><span class="qodef-menu-item-text">House Décor</span></a></li>
+	<li id="menu-item-5943" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5943"><a href="/"><span class="qodef-menu-item-text">Architecture Studio</span></a></li>
+	<li id="menu-item-2111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2111"><a href="/"><span class="qodef-menu-item-text">Architecture Home</span></a></li>
+	<li id="menu-item-2112" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2112"><a href="/"><span class="qodef-menu-item-text">Interior Design Studio</span></a></li>
+	<li id="menu-item-2119" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2119"><a href="/"><span class="qodef-menu-item-text">Furniture Design</span></a></li>
+	<li id="menu-item-5944" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5944"><a href="/"><span class="qodef-menu-item-text">House Décor</span></a></li>
 </ul></div></div>
 </li>
 <li id="menu-item-2113" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2113 qodef-menu-item--narrow"><a href="#"><span class="qodef-menu-item-text">Pages<svg class="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="29.414" height="10"><path d="M25 5H0"></path><path d="m29.414 5-8.75 5V0Z"></path></svg></span></a>
 <div class="qodef-drop-down-second"><div class="qodef-drop-down-second-inner"><ul class="sub-menu" style="top: -82px; width: 96px; --qodef-submenu-width: 96px;"><li class="qodef-menu--back"><a href="#"><svg class="qodef-svg--arrow-left" xmlns="http://www.w3.org/2000/svg" width="35" height="10"><g><path d="M5.07 4.5h30"></path><path d="m0 4.5 8.75-5v10Z"></path></g></svg></a></li>
-	<li id="menu-item-5945" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5945"><a href="about-us.html"><span class="qodef-menu-item-text">About us</span></a></li>
-	<li id="menu-item-5946" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5946"><a href="index.html"><span class="qodef-menu-item-text">Our Services</span></a></li>
-	<li id="menu-item-5947" class="menu-item menu-item-type-post_type menu-item-object-team menu-item-5947"><a href="index.html"><span class="qodef-menu-item-text">Team Member</span></a></li>
-	<li id="menu-item-5948" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5948"><a href="index.html"><span class="qodef-menu-item-text">Get In Touch</span></a></li>
-	<li id="menu-item-5949" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5949"><a href="index.html"><span class="qodef-menu-item-text">FAQ Page</span></a></li>
+	<li id="menu-item-5945" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5945"><a href="/about-us/"><span class="qodef-menu-item-text">About us</span></a></li>
+	<li id="menu-item-5946" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5946"><a href="/"><span class="qodef-menu-item-text">Our Services</span></a></li>
+	<li id="menu-item-5947" class="menu-item menu-item-type-post_type menu-item-object-team menu-item-5947"><a href="/"><span class="qodef-menu-item-text">Team Member</span></a></li>
+	<li id="menu-item-5948" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5948"><a href="/"><span class="qodef-menu-item-text">Get In Touch</span></a></li>
+	<li id="menu-item-5949" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5949"><a href="/"><span class="qodef-menu-item-text">FAQ Page</span></a></li>
 </ul></div></div>
 </li>
 <li id="menu-item-2114" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2114 qodef-menu-item--narrow"><a href="#"><span class="qodef-menu-item-text">Portfolio<svg class="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="29.414" height="10"><path d="M25 5H0"></path><path d="m29.414 5-8.75 5V0Z"></path></svg></span></a>
 <div class="qodef-drop-down-second"><div class="qodef-drop-down-second-inner"><ul class="sub-menu" style="top: -125px; width: 85px; --qodef-submenu-width: 85px;"><li class="qodef-menu--back"><a href="#"><svg class="qodef-svg--arrow-left" xmlns="http://www.w3.org/2000/svg" width="35" height="10"><g><path d="M5.07 4.5h30"></path><path d="m0 4.5 8.75-5v10Z"></path></g></svg></a></li>
-	<li id="menu-item-5950" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5950"><a href="index.html"><span class="qodef-menu-item-text">Gallery List</span></a></li>
-	<li id="menu-item-5951" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5951"><a href="index.html"><span class="qodef-menu-item-text">Masonry List</span></a></li>
-	<li id="menu-item-5953" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-5953"><a href="index.html"><span class="qodef-menu-item-text">Split &amp; Wide</span></a></li>
-	<li id="menu-item-5952" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-5952"><a href="index.html"><span class="qodef-menu-item-text">Wide</span></a></li>
-	<li id="menu-item-5955" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-5955"><a href="index.html"><span class="qodef-menu-item-text">Assorted</span></a></li>
-	<li id="menu-item-5956" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-5956"><a href="index.html"><span class="qodef-menu-item-text">Alternating</span></a></li>
-	<li id="menu-item-5957" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-5957"><a href="index.html"><span class="qodef-menu-item-text">Hero Image</span></a></li>
+	<li id="menu-item-5950" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5950"><a href="/"><span class="qodef-menu-item-text">Gallery List</span></a></li>
+	<li id="menu-item-5951" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5951"><a href="/"><span class="qodef-menu-item-text">Masonry List</span></a></li>
+	<li id="menu-item-5953" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-5953"><a href="/"><span class="qodef-menu-item-text">Split &amp; Wide</span></a></li>
+	<li id="menu-item-5952" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-5952"><a href="/"><span class="qodef-menu-item-text">Wide</span></a></li>
+	<li id="menu-item-5955" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-5955"><a href="/"><span class="qodef-menu-item-text">Assorted</span></a></li>
+	<li id="menu-item-5956" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-5956"><a href="/"><span class="qodef-menu-item-text">Alternating</span></a></li>
+	<li id="menu-item-5957" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-5957"><a href="/"><span class="qodef-menu-item-text">Hero Image</span></a></li>
 </ul></div></div>
 </li>
 <li id="menu-item-5959" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5959 qodef-menu-item--narrow"><a href="#"><span class="qodef-menu-item-text">Shop<svg class="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="29.414" height="10"><path d="M25 5H0"></path><path d="m29.414 5-8.75 5V0Z"></path></svg></span></a>
 <div class="qodef-drop-down-second"><div class="qodef-drop-down-second-inner"><ul class="sub-menu" style="top: -168px; width: 94px; --qodef-submenu-width: 94px;"><li class="qodef-menu--back"><a href="#"><svg class="qodef-svg--arrow-left" xmlns="http://www.w3.org/2000/svg" width="35" height="10"><g><path d="M5.07 4.5h30"></path><path d="m0 4.5 8.75-5v10Z"></path></g></svg></a></li>
-	<li id="menu-item-5964" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-5964"><a href="index.html"><span class="qodef-menu-item-text">Product Single</span></a></li>
-	<li id="menu-item-5960" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5960"><a href="index.html"><span class="qodef-menu-item-text">Product List</span></a></li>
+	<li id="menu-item-5964" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-5964"><a href="/"><span class="qodef-menu-item-text">Product Single</span></a></li>
+	<li id="menu-item-5960" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5960"><a href="/"><span class="qodef-menu-item-text">Product List</span></a></li>
 </ul></div></div>
 </li>
-<li id="menu-item-2122" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2122"><a href="index.html"><span class="qodef-menu-item-text">Blog</span></a></li>
-<li id="menu-item-5965" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5965"><a href="index.html"><span class="qodef-menu-item-text">Landing</span></a></li>
+<li id="menu-item-2122" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2122"><a href="/"><span class="qodef-menu-item-text">Blog</span></a></li>
+<li id="menu-item-5965" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5965"><a href="/"><span class="qodef-menu-item-text">Landing</span></a></li>
 </ul>	<div class="ps__rail-x" style="left: 0px; bottom: 0px;"><div class="ps__thumb-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps__rail-y" style="top: 0px; right: 0px;"><div class="ps__thumb-y" tabindex="0" style="top: 0px; height: 0px;"></div></div></nav>
 </div>
 	</div>
@@ -310,7 +313,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<div class="qodef-e-inner">
 		<div class="qodef-e-media">
 				<div class="qodef-e-media-image">
-		<a class="qodef-e-image-link" itemprop="url" href="index.html" target="_self">
+		<a class="qodef-e-image-link" itemprop="url" href="/" target="_self">
 			<img loading="lazy" decoding="async" width="960" height="250" src="https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/h1-port-img-1.jpg" class="attachment-full size-full" alt="s" srcset="https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/h1-port-img-1.jpg 960w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/h1-port-img-1-600x156.jpg 600w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/h1-port-img-1-800x208.jpg 800w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/h1-port-img-1-300x78.jpg 300w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/h1-port-img-1-768x200.jpg 768w" sizes="(max-width: 960px) 100vw, 960px">		</a>
 	</div>
 		</div>
@@ -318,7 +321,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<span class="qodef-e-number">
 		01	</span>
 			<h4 itemprop="name" class="qodef-e-title entry-title">
-	<a itemprop="url" class="qodef-e-title-link" href="index.html" target="_self">
+	<a itemprop="url" class="qodef-e-title-link" href="/" target="_self">
 		G13 House	</a>
 	<svg class="qodef-svg--arrow-right" xmlns="http://www.w3.org/2000/svg" width="35" height="10"><g><path d="M30 4.5H0"></path><path d="m 35.07 4.5 l -8.75 5 V -0.3 Z"></path></g></svg></h4>
 		</div>
@@ -328,7 +331,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<div class="qodef-e-inner">
 		<div class="qodef-e-media">
 				<div class="qodef-e-media-image">
-		<a class="qodef-e-image-link" itemprop="url" href="index.html" target="_self">
+		<a class="qodef-e-image-link" itemprop="url" href="/" target="_self">
 			<img loading="lazy" decoding="async" width="960" height="250" src="https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/h1-port-img-5.jpg" class="attachment-full size-full" alt="s" srcset="https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/h1-port-img-5.jpg 960w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/h1-port-img-5-600x156.jpg 600w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/h1-port-img-5-800x208.jpg 800w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/h1-port-img-5-300x78.jpg 300w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/h1-port-img-5-768x200.jpg 768w" sizes="(max-width: 960px) 100vw, 960px">		</a>
 	</div>
 		</div>
@@ -336,7 +339,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<span class="qodef-e-number">
 		02	</span>
 			<h4 itemprop="name" class="qodef-e-title entry-title">
-	<a itemprop="url" class="qodef-e-title-link" href="index.html" target="_self">
+	<a itemprop="url" class="qodef-e-title-link" href="/" target="_self">
 		Jade House	</a>
 	<svg class="qodef-svg--arrow-right" xmlns="http://www.w3.org/2000/svg" width="35" height="10"><g><path d="M30 4.5H0"></path><path d="m 35.07 4.5 l -8.75 5 V -0.3 Z"></path></g></svg></h4>
 		</div>
@@ -346,7 +349,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<div class="qodef-e-inner">
 		<div class="qodef-e-media">
 				<div class="qodef-e-media-image">
-		<a class="qodef-e-image-link" itemprop="url" href="index.html" target="_self">
+		<a class="qodef-e-image-link" itemprop="url" href="/" target="_self">
 			<img loading="lazy" decoding="async" width="960" height="250" src="https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/h1-port-img-2.jpg" class="attachment-full size-full" alt="s" srcset="https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/h1-port-img-2.jpg 960w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/h1-port-img-2-600x156.jpg 600w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/h1-port-img-2-800x208.jpg 800w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/h1-port-img-2-300x78.jpg 300w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/h1-port-img-2-768x200.jpg 768w" sizes="(max-width: 960px) 100vw, 960px">		</a>
 	</div>
 		</div>
@@ -354,7 +357,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<span class="qodef-e-number">
 		03	</span>
 			<h4 itemprop="name" class="qodef-e-title entry-title">
-	<a itemprop="url" class="qodef-e-title-link" href="index.html" target="_self">
+	<a itemprop="url" class="qodef-e-title-link" href="/" target="_self">
 		Art Space	</a>
 	<svg class="qodef-svg--arrow-right" xmlns="http://www.w3.org/2000/svg" width="35" height="10"><g><path d="M30 4.5H0"></path><path d="m 35.07 4.5 l -8.75 5 V -0.3 Z"></path></g></svg></h4>
 		</div>
@@ -364,7 +367,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<div class="qodef-e-inner">
 		<div class="qodef-e-media">
 				<div class="qodef-e-media-image">
-		<a class="qodef-e-image-link" itemprop="url" href="index.html" target="_self">
+		<a class="qodef-e-image-link" itemprop="url" href="/" target="_self">
 			<img loading="lazy" decoding="async" width="960" height="250" src="https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/h1-port-img-4.jpg" class="attachment-full size-full" alt="s" srcset="https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/h1-port-img-4.jpg 960w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/h1-port-img-4-600x156.jpg 600w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/h1-port-img-4-800x208.jpg 800w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/h1-port-img-4-300x78.jpg 300w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/h1-port-img-4-768x200.jpg 768w" sizes="(max-width: 960px) 100vw, 960px">		</a>
 	</div>
 		</div>
@@ -372,7 +375,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<span class="qodef-e-number">
 		04	</span>
 			<h4 itemprop="name" class="qodef-e-title entry-title">
-	<a itemprop="url" class="qodef-e-title-link" href="index.html" target="_self">
+	<a itemprop="url" class="qodef-e-title-link" href="/" target="_self">
 		3d Modeling	</a>
 	<svg class="qodef-svg--arrow-right" xmlns="http://www.w3.org/2000/svg" width="35" height="10"><g><path d="M30 4.5H0"></path><path d="m 35.07 4.5 l -8.75 5 V -0.3 Z"></path></g></svg></h4>
 		</div>
@@ -382,7 +385,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<div class="qodef-e-inner">
 		<div class="qodef-e-media">
 				<div class="qodef-e-media-image">
-		<a class="qodef-e-image-link" itemprop="url" href="index.html" target="_self">
+		<a class="qodef-e-image-link" itemprop="url" href="/" target="_self">
 			<img loading="lazy" decoding="async" width="960" height="250" src="https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/h1-port-img-3.jpg" class="attachment-full size-full" alt="s" srcset="https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/h1-port-img-3.jpg 960w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/h1-port-img-3-600x156.jpg 600w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/h1-port-img-3-800x208.jpg 800w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/h1-port-img-3-300x78.jpg 300w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/h1-port-img-3-768x200.jpg 768w" sizes="(max-width: 960px) 100vw, 960px">		</a>
 	</div>
 		</div>
@@ -390,7 +393,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<span class="qodef-e-number">
 		05	</span>
 			<h4 itemprop="name" class="qodef-e-title entry-title">
-	<a itemprop="url" class="qodef-e-title-link" href="index.html" target="_self">
+	<a itemprop="url" class="qodef-e-title-link" href="/" target="_self">
 		Arca Studio	</a>
 	<svg class="qodef-svg--arrow-right" xmlns="http://www.w3.org/2000/svg" width="35" height="10"><g><path d="M30 4.5H0"></path><path d="m 35.07 4.5 l -8.75 5 V -0.3 Z"></path></g></svg></h4>
 		</div>
@@ -400,7 +403,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<div class="qodef-e-inner">
 		<div class="qodef-e-media">
 				<div class="qodef-e-media-image">
-		<a class="qodef-e-image-link" itemprop="url" href="index.html" target="_self">
+		<a class="qodef-e-image-link" itemprop="url" href="/" target="_self">
 			<img loading="lazy" decoding="async" width="960" height="250" src="https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/h1-port-img-6.jpg" class="attachment-full size-full" alt="d" srcset="https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/h1-port-img-6.jpg 960w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/h1-port-img-6-600x156.jpg 600w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/h1-port-img-6-800x208.jpg 800w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/h1-port-img-6-300x78.jpg 300w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/h1-port-img-6-768x200.jpg 768w" sizes="(max-width: 960px) 100vw, 960px">		</a>
 	</div>
 		</div>
@@ -408,7 +411,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<span class="qodef-e-number">
 		06	</span>
 			<h4 itemprop="name" class="qodef-e-title entry-title">
-	<a itemprop="url" class="qodef-e-title-link" href="index.html" target="_self">
+	<a itemprop="url" class="qodef-e-title-link" href="/" target="_self">
 		Light &amp; shapes	</a>
 	<svg class="qodef-svg--arrow-right" xmlns="http://www.w3.org/2000/svg" width="35" height="10"><g><path d="M30 4.5H0"></path><path d="m 35.07 4.5 l -8.75 5 V -0.3 Z"></path></g></svg></h4>
 		</div>
@@ -485,13 +488,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<div class="qodef-e-inner">
 		<div class="qodef-e-image">
 				<div class="qodef-e-media-image">
-					<a itemprop="url" href="index.html">
+					<a itemprop="url" href="/">
 					<img loading="lazy" decoding="async" width="960" height="966" src="https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/team-img-1.jpg" class="attachment-full size-full wp-post-image" alt="d" srcset="https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/team-img-1.jpg 960w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/team-img-1-600x604.jpg 600w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/team-img-1-100x100.jpg 100w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/team-img-1-800x805.jpg 800w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/team-img-1-298x300.jpg 298w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/team-img-1-150x150.jpg 150w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/team-img-1-768x773.jpg 768w" sizes="(max-width: 960px) 100vw, 960px">					</a>
 			</div>
 		</div>
 		<div class="qodef-e-content">
 			<h5 itemprop="name" class="qodef-e-title entry-title">
-			<a itemprop="url" class="qodef-e-title-link" href="index.html">
+			<a itemprop="url" class="qodef-e-title-link" href="/">
 			Vincent Rasel			</a>
 	</h5>
 				<p class="qodef-e-role">CEO / Architect</p>
@@ -518,13 +521,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<div class="qodef-e-inner">
 		<div class="qodef-e-image">
 				<div class="qodef-e-media-image">
-					<a itemprop="url" href="index.html">
+					<a itemprop="url" href="/">
 					<img loading="lazy" decoding="async" width="960" height="960" src="https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/team-image-n-1.jpg" class="attachment-full size-full wp-post-image" alt="k" srcset="https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/team-image-n-1.jpg 960w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/team-image-n-1-600x600.jpg 600w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/team-image-n-1-100x100.jpg 100w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/team-image-n-1-800x800.jpg 800w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/team-image-n-1-300x300.jpg 300w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/team-image-n-1-150x150.jpg 150w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/team-image-n-1-768x768.jpg 768w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/team-image-n-1-650x650.jpg 650w" sizes="(max-width: 960px) 100vw, 960px">					</a>
 			</div>
 		</div>
 		<div class="qodef-e-content">
 			<h5 itemprop="name" class="qodef-e-title entry-title">
-			<a itemprop="url" class="qodef-e-title-link" href="index.html">
+			<a itemprop="url" class="qodef-e-title-link" href="/">
 			Victoria Savano			</a>
 	</h5>
 				<p class="qodef-e-role">Urbanism and spatial planning</p>
@@ -907,13 +910,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<div class="qodef-e-inner">
 		<div class="qodef-e-media">
 		<div class="qodef-e-media-image">
-		<a itemprop="url" href="index.html">
+		<a itemprop="url" href="/">
 			<img loading="lazy" decoding="async" width="1100" height="702" src="https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/blog-img-4.jpg" class="attachment-full size-full wp-post-image" alt="d" srcset="https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/blog-img-4.jpg 1100w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/blog-img-4-600x383.jpg 600w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/blog-img-4-800x511.jpg 800w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/blog-img-4-300x191.jpg 300w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/blog-img-4-1024x653.jpg 1024w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/blog-img-4-768x490.jpg 768w" sizes="(max-width: 1100px) 100vw, 1100px">		</a>
 	</div>
 </div>
 		<div class="qodef-e-content">
 			<div class="qodef-e-left">
-				<a itemprop="dateCreated" href="index.html" class="entry-date published updated">
+				<a itemprop="dateCreated" href="/" class="entry-date published updated">
 			<div class="qodef-date-day">
 			3		</div>
 		<div class="qodef-date-month">
@@ -923,12 +926,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<div class="qodef-e-right">
 				<div class="qodef-top-holder">
 					<div class="qodef-e-info">
-						<a itemprop="author" href="index.html" class="qodef-e-info-author">
+						<a itemprop="author" href="/" class="qodef-e-info-author">
 	Juliette Manon</a><div class="qodef-info-separator-end"></div>
-<a href="index.html" rel="tag">Building</a><div class="qodef-info-separator-end"></div>					</div>
+<a href="/" rel="tag">Building</a><div class="qodef-info-separator-end"></div>					</div>
 				</div>
 				<h4 itemprop="name" class="qodef-e-title entry-title">
-	<a itemprop="url" class="qodef-e-title-link" href="index.html">
+	<a itemprop="url" class="qodef-e-title-link" href="/">
 		Innovate Stone Structures	</a>
 </h4>
 			</div>
@@ -938,13 +941,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<div class="qodef-e-inner">
 		<div class="qodef-e-media">
 		<div class="qodef-e-media-image">
-		<a itemprop="url" href="index.html">
+		<a itemprop="url" href="/">
 			<img loading="lazy" decoding="async" width="1100" height="703" src="https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h1-img-blog-img.jpg" class="attachment-full size-full wp-post-image" alt="s" srcset="https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h1-img-blog-img.jpg 1100w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h1-img-blog-img-600x383.jpg 600w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h1-img-blog-img-800x511.jpg 800w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h1-img-blog-img-300x192.jpg 300w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h1-img-blog-img-1024x654.jpg 1024w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h1-img-blog-img-768x491.jpg 768w" sizes="(max-width: 1100px) 100vw, 1100px">		</a>
 	</div>
 </div>
 		<div class="qodef-e-content">
 			<div class="qodef-e-left">
-				<a itemprop="dateCreated" href="index.html" class="entry-date published updated">
+				<a itemprop="dateCreated" href="/" class="entry-date published updated">
 			<div class="qodef-date-day">
 			5		</div>
 		<div class="qodef-date-month">
@@ -954,12 +957,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<div class="qodef-e-right">
 				<div class="qodef-top-holder">
 					<div class="qodef-e-info">
-						<a itemprop="author" href="index.html" class="qodef-e-info-author">
+						<a itemprop="author" href="/" class="qodef-e-info-author">
 	Juliette Manon</a><div class="qodef-info-separator-end"></div>
-<a href="index.html" rel="tag">Building</a><div class="qodef-info-separator-end"></div>					</div>
+<a href="/" rel="tag">Building</a><div class="qodef-info-separator-end"></div>					</div>
 				</div>
 				<h4 itemprop="name" class="qodef-e-title entry-title">
-	<a itemprop="url" class="qodef-e-title-link" href="index.html">
+	<a itemprop="url" class="qodef-e-title-link" href="/">
 		Home design materials	</a>
 </h4>
 			</div>
@@ -969,13 +972,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<div class="qodef-e-inner">
 		<div class="qodef-e-media">
 		<div class="qodef-e-media-image">
-		<a itemprop="url" href="index.html">
+		<a itemprop="url" href="/">
 			<img loading="lazy" decoding="async" width="1100" height="703" src="https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h1-img-blog-img-1.jpg" class="attachment-full size-full wp-post-image" alt="s" srcset="https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h1-img-blog-img-1.jpg 1100w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h1-img-blog-img-1-600x383.jpg 600w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h1-img-blog-img-1-800x511.jpg 800w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h1-img-blog-img-1-300x192.jpg 300w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h1-img-blog-img-1-1024x654.jpg 1024w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h1-img-blog-img-1-768x491.jpg 768w" sizes="(max-width: 1100px) 100vw, 1100px">		</a>
 	</div>
 </div>
 		<div class="qodef-e-content">
 			<div class="qodef-e-left">
-				<a itemprop="dateCreated" href="index.html" class="entry-date published updated">
+				<a itemprop="dateCreated" href="/" class="entry-date published updated">
 			<div class="qodef-date-day">
 			5		</div>
 		<div class="qodef-date-month">
@@ -985,12 +988,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<div class="qodef-e-right">
 				<div class="qodef-top-holder">
 					<div class="qodef-e-info">
-						<a itemprop="author" href="index.html" class="qodef-e-info-author">
+						<a itemprop="author" href="/" class="qodef-e-info-author">
 	Juliette Manon</a><div class="qodef-info-separator-end"></div>
-<a href="index.html" rel="tag">Building</a><div class="qodef-info-separator-end"></div>					</div>
+<a href="/" rel="tag">Building</a><div class="qodef-info-separator-end"></div>					</div>
 				</div>
 				<h4 itemprop="name" class="qodef-e-title entry-title">
-	<a itemprop="url" class="qodef-e-title-link" href="index.html">
+	<a itemprop="url" class="qodef-e-title-link" href="/">
 		Start with the view &amp; air	</a>
 </h4>
 			</div>
@@ -1001,13 +1004,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<div class="qodef-e-inner">
 		<div class="qodef-e-media">
 		<div class="qodef-e-media-image">
-		<a itemprop="url" href="index.html">
+		<a itemprop="url" href="/">
 			<img loading="lazy" decoding="async" width="1100" height="702" src="https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/blog-img-4.jpg" class="attachment-full size-full wp-post-image" alt="d" srcset="https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/blog-img-4.jpg 1100w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/blog-img-4-600x383.jpg 600w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/blog-img-4-800x511.jpg 800w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/blog-img-4-300x191.jpg 300w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/blog-img-4-1024x653.jpg 1024w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/blog-img-4-768x490.jpg 768w" sizes="(max-width: 1100px) 100vw, 1100px">		</a>
 	</div>
 </div>
 		<div class="qodef-e-content">
 			<div class="qodef-e-left">
-				<a itemprop="dateCreated" href="index.html" class="entry-date published updated">
+				<a itemprop="dateCreated" href="/" class="entry-date published updated">
 			<div class="qodef-date-day">
 			3		</div>
 		<div class="qodef-date-month">
@@ -1017,12 +1020,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<div class="qodef-e-right">
 				<div class="qodef-top-holder">
 					<div class="qodef-e-info">
-						<a itemprop="author" href="index.html" class="qodef-e-info-author">
+						<a itemprop="author" href="/" class="qodef-e-info-author">
 	Juliette Manon</a><div class="qodef-info-separator-end"></div>
-<a href="index.html" rel="tag">Building</a><div class="qodef-info-separator-end"></div>					</div>
+<a href="/" rel="tag">Building</a><div class="qodef-info-separator-end"></div>					</div>
 				</div>
 				<h4 itemprop="name" class="qodef-e-title entry-title">
-	<a itemprop="url" class="qodef-e-title-link" href="index.html">
+	<a itemprop="url" class="qodef-e-title-link" href="/">
 		Innovate Stone Structures	</a>
 </h4>
 			</div>
@@ -1033,13 +1036,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<div class="qodef-e-inner">
 		<div class="qodef-e-media">
 		<div class="qodef-e-media-image">
-		<a itemprop="url" href="index.html">
+		<a itemprop="url" href="/">
 			<img loading="lazy" decoding="async" width="1100" height="703" src="https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h1-img-blog-img.jpg" class="attachment-full size-full wp-post-image" alt="s" srcset="https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h1-img-blog-img.jpg 1100w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h1-img-blog-img-600x383.jpg 600w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h1-img-blog-img-800x511.jpg 800w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h1-img-blog-img-300x192.jpg 300w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h1-img-blog-img-1024x654.jpg 1024w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h1-img-blog-img-768x491.jpg 768w" sizes="(max-width: 1100px) 100vw, 1100px">		</a>
 	</div>
 </div>
 		<div class="qodef-e-content">
 			<div class="qodef-e-left">
-				<a itemprop="dateCreated" href="index.html" class="entry-date published updated">
+				<a itemprop="dateCreated" href="/" class="entry-date published updated">
 			<div class="qodef-date-day">
 			5		</div>
 		<div class="qodef-date-month">
@@ -1049,12 +1052,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<div class="qodef-e-right">
 				<div class="qodef-top-holder">
 					<div class="qodef-e-info">
-						<a itemprop="author" href="index.html" class="qodef-e-info-author">
+						<a itemprop="author" href="/" class="qodef-e-info-author">
 	Juliette Manon</a><div class="qodef-info-separator-end"></div>
-<a href="index.html" rel="tag">Building</a><div class="qodef-info-separator-end"></div>					</div>
+<a href="/" rel="tag">Building</a><div class="qodef-info-separator-end"></div>					</div>
 				</div>
 				<h4 itemprop="name" class="qodef-e-title entry-title">
-	<a itemprop="url" class="qodef-e-title-link" href="index.html">
+	<a itemprop="url" class="qodef-e-title-link" href="/">
 		Home design materials	</a>
 </h4>
 			</div>
@@ -1065,13 +1068,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<div class="qodef-e-inner">
 		<div class="qodef-e-media">
 		<div class="qodef-e-media-image">
-		<a itemprop="url" href="index.html">
+		<a itemprop="url" href="/">
 			<img loading="lazy" decoding="async" width="1100" height="703" src="https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h1-img-blog-img-1.jpg" class="attachment-full size-full wp-post-image" alt="s" srcset="https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h1-img-blog-img-1.jpg 1100w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h1-img-blog-img-1-600x383.jpg 600w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h1-img-blog-img-1-800x511.jpg 800w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h1-img-blog-img-1-300x192.jpg 300w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h1-img-blog-img-1-1024x654.jpg 1024w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h1-img-blog-img-1-768x491.jpg 768w" sizes="(max-width: 1100px) 100vw, 1100px">		</a>
 	</div>
 </div>
 		<div class="qodef-e-content">
 			<div class="qodef-e-left">
-				<a itemprop="dateCreated" href="index.html" class="entry-date published updated">
+				<a itemprop="dateCreated" href="/" class="entry-date published updated">
 			<div class="qodef-date-day">
 			5		</div>
 		<div class="qodef-date-month">
@@ -1081,12 +1084,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<div class="qodef-e-right">
 				<div class="qodef-top-holder">
 					<div class="qodef-e-info">
-						<a itemprop="author" href="index.html" class="qodef-e-info-author">
+						<a itemprop="author" href="/" class="qodef-e-info-author">
 	Juliette Manon</a><div class="qodef-info-separator-end"></div>
-<a href="index.html" rel="tag">Building</a><div class="qodef-info-separator-end"></div>					</div>
+<a href="/" rel="tag">Building</a><div class="qodef-info-separator-end"></div>					</div>
 				</div>
 				<h4 itemprop="name" class="qodef-e-title entry-title">
-	<a itemprop="url" class="qodef-e-title-link" href="index.html">
+	<a itemprop="url" class="qodef-e-title-link" href="/">
 		Start with the view &amp; air	</a>
 </h4>
 			</div>
@@ -1097,13 +1100,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<div class="qodef-e-inner">
 		<div class="qodef-e-media">
 		<div class="qodef-e-media-image">
-		<a itemprop="url" href="index.html">
+		<a itemprop="url" href="/">
 			<img loading="lazy" decoding="async" width="1100" height="702" src="https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/blog-img-4.jpg" class="attachment-full size-full wp-post-image" alt="d" srcset="https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/blog-img-4.jpg 1100w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/blog-img-4-600x383.jpg 600w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/blog-img-4-800x511.jpg 800w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/blog-img-4-300x191.jpg 300w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/blog-img-4-1024x653.jpg 1024w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/blog-img-4-768x490.jpg 768w" sizes="(max-width: 1100px) 100vw, 1100px">		</a>
 	</div>
 </div>
 		<div class="qodef-e-content">
 			<div class="qodef-e-left">
-				<a itemprop="dateCreated" href="index.html" class="entry-date published updated">
+				<a itemprop="dateCreated" href="/" class="entry-date published updated">
 			<div class="qodef-date-day">
 			3		</div>
 		<div class="qodef-date-month">
@@ -1113,12 +1116,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<div class="qodef-e-right">
 				<div class="qodef-top-holder">
 					<div class="qodef-e-info">
-						<a itemprop="author" href="index.html" class="qodef-e-info-author">
+						<a itemprop="author" href="/" class="qodef-e-info-author">
 	Juliette Manon</a><div class="qodef-info-separator-end"></div>
-<a href="index.html" rel="tag">Building</a><div class="qodef-info-separator-end"></div>					</div>
+<a href="/" rel="tag">Building</a><div class="qodef-info-separator-end"></div>					</div>
 				</div>
 				<h4 itemprop="name" class="qodef-e-title entry-title">
-	<a itemprop="url" class="qodef-e-title-link" href="index.html">
+	<a itemprop="url" class="qodef-e-title-link" href="/">
 		Innovate Stone Structures	</a>
 </h4>
 			</div>
@@ -1128,13 +1131,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<div class="qodef-e-inner">
 		<div class="qodef-e-media">
 		<div class="qodef-e-media-image">
-		<a itemprop="url" href="index.html">
+		<a itemprop="url" href="/">
 			<img loading="lazy" decoding="async" width="1100" height="703" src="https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h1-img-blog-img.jpg" class="attachment-full size-full wp-post-image" alt="s" srcset="https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h1-img-blog-img.jpg 1100w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h1-img-blog-img-600x383.jpg 600w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h1-img-blog-img-800x511.jpg 800w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h1-img-blog-img-300x192.jpg 300w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h1-img-blog-img-1024x654.jpg 1024w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h1-img-blog-img-768x491.jpg 768w" sizes="(max-width: 1100px) 100vw, 1100px">		</a>
 	</div>
 </div>
 		<div class="qodef-e-content">
 			<div class="qodef-e-left">
-				<a itemprop="dateCreated" href="index.html" class="entry-date published updated">
+				<a itemprop="dateCreated" href="/" class="entry-date published updated">
 			<div class="qodef-date-day">
 			5		</div>
 		<div class="qodef-date-month">
@@ -1144,12 +1147,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<div class="qodef-e-right">
 				<div class="qodef-top-holder">
 					<div class="qodef-e-info">
-						<a itemprop="author" href="index.html" class="qodef-e-info-author">
+						<a itemprop="author" href="/" class="qodef-e-info-author">
 	Juliette Manon</a><div class="qodef-info-separator-end"></div>
-<a href="index.html" rel="tag">Building</a><div class="qodef-info-separator-end"></div>					</div>
+<a href="/" rel="tag">Building</a><div class="qodef-info-separator-end"></div>					</div>
 				</div>
 				<h4 itemprop="name" class="qodef-e-title entry-title">
-	<a itemprop="url" class="qodef-e-title-link" href="index.html">
+	<a itemprop="url" class="qodef-e-title-link" href="/">
 		Home design materials	</a>
 </h4>
 			</div>
@@ -1159,13 +1162,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<div class="qodef-e-inner">
 		<div class="qodef-e-media">
 		<div class="qodef-e-media-image">
-		<a itemprop="url" href="index.html">
+		<a itemprop="url" href="/">
 			<img loading="lazy" decoding="async" width="1100" height="703" src="https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h1-img-blog-img-1.jpg" class="attachment-full size-full wp-post-image" alt="s" srcset="https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h1-img-blog-img-1.jpg 1100w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h1-img-blog-img-1-600x383.jpg 600w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h1-img-blog-img-1-800x511.jpg 800w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h1-img-blog-img-1-300x192.jpg 300w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h1-img-blog-img-1-1024x654.jpg 1024w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h1-img-blog-img-1-768x491.jpg 768w" sizes="(max-width: 1100px) 100vw, 1100px">		</a>
 	</div>
 </div>
 		<div class="qodef-e-content">
 			<div class="qodef-e-left">
-				<a itemprop="dateCreated" href="index.html" class="entry-date published updated">
+				<a itemprop="dateCreated" href="/" class="entry-date published updated">
 			<div class="qodef-date-day">
 			5		</div>
 		<div class="qodef-date-month">
@@ -1175,12 +1178,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<div class="qodef-e-right">
 				<div class="qodef-top-holder">
 					<div class="qodef-e-info">
-						<a itemprop="author" href="index.html" class="qodef-e-info-author">
+						<a itemprop="author" href="/" class="qodef-e-info-author">
 	Juliette Manon</a><div class="qodef-info-separator-end"></div>
-<a href="index.html" rel="tag">Building</a><div class="qodef-info-separator-end"></div>					</div>
+<a href="/" rel="tag">Building</a><div class="qodef-info-separator-end"></div>					</div>
 				</div>
 				<h4 itemprop="name" class="qodef-e-title entry-title">
-	<a itemprop="url" class="qodef-e-title-link" href="index.html">
+	<a itemprop="url" class="qodef-e-title-link" href="/">
 		Start with the view &amp; air	</a>
 </h4>
 			</div>
@@ -1446,25 +1449,25 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<div class="qodef-hl-items-wrapper" style="--qodef-num-items: 4; --qodef--adj-height: 386;">
 							<div class="qodef-hl-item">
 					<div class="qodef-hli-image">
-													<a href="index.html" target="_self"></a>
+													<a href="/" target="_self"></a>
 																		<img decoding="async" src="https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/h1-port-2-img-2.jpg" alt="s">
 					</div>
 				</div>
 							<div class="qodef-hl-item">
 					<div class="qodef-hli-image">
-													<a href="index.html" target="_self"></a>
+													<a href="/" target="_self"></a>
 																		<img decoding="async" src="https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/h1-port-2-img-1.jpg" alt="s">
 					</div>
 				</div>
 							<div class="qodef-hl-item">
 					<div class="qodef-hli-image">
-													<a href="index.html" target="_self"></a>
+													<a href="/" target="_self"></a>
 																		<img decoding="async" src="https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/h1-port-2-img-5.jpg" alt="s">
 					</div>
 				</div>
 							<div class="qodef-hl-item">
 					<div class="qodef-hli-image">
-													<a href="index.html" target="_self"></a>
+													<a href="/" target="_self"></a>
 																		<img decoding="async" src="https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/h1-port-2-img-4.jpg" alt="s">
 					</div>
 				</div>
@@ -1475,7 +1478,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				</div>
 				<div class="elementor-element elementor-element-1b4d571 elementor-widget__width-auto elementor-widget elementor-widget-tadao_core_button" data-id="1b4d571" data-element_type="widget" data-e-type="widget" data-widget_type="tadao_core_button.default">
 				<div class="elementor-widget-container">
-					<a class="qodef-shortcode qodef-m qodef-button qodef-layout--textual qodef-html--link" href="index.html" target="_self">
+					<a class="qodef-shortcode qodef-m qodef-button qodef-layout--textual qodef-html--link" href="/" target="_self">
 	<span class="qodef-m-text">View all work</span>
 	<span class="qodef-m-arrow">
 		<svg class="qodef-svg--arrow-right" xmlns="http://www.w3.org/2000/svg" width="35" height="10"><g><path d="M30 4.5H0"></path><path d="m 35.07 4.5 l -8.75 5 V -0.3 Z"></path></g></svg>	</span>
@@ -2347,4 +2350,7 @@ const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(
 	</script>
 <script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a24a85f74ae4ffc8',t:'MTc4NTY0Njg3Mg=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><iframe height="1" width="1" style="position: absolute; top: 0px; left: 0px; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; visibility: hidden;"></iframe>
 
-<div class="widget_shopping_cart_live_region screen-reader-text" role="status"></div></body></html>
+<div class="widget_shopping_cart_live_region screen-reader-text" role="status"></div>
+<?php wp_footer(); ?>
+</body>
+</html>
