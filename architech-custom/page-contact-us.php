@@ -1,6 +1,6 @@
 <!DOCTYPE html><html lang="en-US" itemscope="" itemtype="https://schema.org/WebPage" class=" no-touchevents"><head><style>.ssQIHO-checkbox-menu-item>span>span{background-color:#000;display:inline-block}@media (forced-colors:active),(prefers-contrast:more){.ssQIHO-checkbox-menu-item>span>span{background-color:ButtonText}}
 
-.qodef-header-logo-link img.cnss-logo{width:auto!important;height:180px!important;max-height:none!important;max-width:none!important;flex:0 0 auto!important;}
+.qodef-header-logo-link img.cnss-logo{width:auto!important;height:55px!important;max-height:55px!important;max-width:none!important;flex:0 0 auto!important;}
 .qodef-header-logo-link.qodef-height--set{height:auto!important;max-height:none!important;}
 
 /* cnss-header-img-css */
@@ -15,7 +15,7 @@
 
 /* cnss-logo-fit */
 .widget img[src*=cnss_logo],.qodef-m-icon img[src*=cnss_logo],.qodef-m-image img[src*=cnss_logo]{display:none!important;}
-.qodef-header-logo-image.cnss-logo{height:64px!important;width:auto!important;max-height:64px!important;}
+.qodef-header-logo-image.cnss-logo{height:55px!important;width:auto!important;max-height:55px!important;}
 #qodef-page-header .qodef-header-logo-link{height:auto!important;display:flex;align-items:center;}
 </style><style>.gm-style .gm-style-mtc div,.gm-style .gm-style-mtc label{font-weight:400}.gm-style .gm-style-mtc li,.gm-style .gm-style-mtc ul{-webkit-box-sizing:border-box;box-sizing:border-box}.gm-style-mtc-bbw{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-flex-wrap:wrap;flex-wrap:wrap}.gm-style-mtc-bbw .gm-style-mtc:first-of-type>button{border-start-start-radius:2px;border-end-start-radius:2px}.gm-style-mtc-bbw .gm-style-mtc:last-of-type>button{border-start-end-radius:2px;border-end-end-radius:2px}sentinel{}
 </style><style>.LGLeeN-keyboard-shortcuts-view{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex}.LGLeeN-keyboard-shortcuts-view table,.LGLeeN-keyboard-shortcuts-view tbody,.LGLeeN-keyboard-shortcuts-view td,.LGLeeN-keyboard-shortcuts-view tr{background:inherit;border:none;margin:0;padding:0}.LGLeeN-keyboard-shortcuts-view table{display:table}.LGLeeN-keyboard-shortcuts-view tr{display:table-row}.LGLeeN-keyboard-shortcuts-view td{-moz-box-sizing:border-box;box-sizing:border-box;display:table-cell;color:light-dark(#000,#fff);padding:6px;vertical-align:middle;white-space:nowrap}.LGLeeN-keyboard-shortcuts-view td:first-child{text-align:end}.LGLeeN-keyboard-shortcuts-view td kbd{background-color:light-dark(#e8eaed,#3c4043);border-radius:2px;border:none;-moz-box-sizing:border-box;box-sizing:border-box;color:inherit;display:inline-block;font-family:Google Sans Text,Roboto,Arial,sans-serif;line-height:16px;margin:0 2px;min-height:20px;min-width:20px;padding:2px 4px;position:relative;text-align:center}
@@ -275,7 +275,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <header id="qodef-page-mobile-header" role="banner">
 		<div id="qodef-page-mobile-header-inner" class="qodef-content-grid">
 		<a itemprop="url" class="qodef-mobile-header-logo-link qodef-height--not-set qodef-source--svg-path" href="/" rel="home">
-	<img class="cnss-logo" src="<?php echo get_template_directory_uri(); ?>/cnss_logo.svg" alt="CNSS" style="height:180px !important;width:auto !important;display:inline-block !important;"></a>
+	<img class="cnss-logo" src="<?php echo get_template_directory_uri(); ?>/cnss_logo.svg" alt="CNSS" style="height:55px !important;width:auto !important;display:inline-block !important;"></a>
 <a href="javascript:void(0)" class="qodef-opener-icon qodef-m qodef-source--predefined qodef-mobile-header-opener">
 	<span class="qodef-m-icon qodef--open">
 		<svg class="qodef-svg--line-opener" xmlns="http://www.w3.org/2000/svg" width="42" height="24"><path d="M1 24V0"></path><path d="M9 24V0"></path><path d="M17 24V0"></path><path d="M25 24V0"></path><path d="M33 24V0"></path><path d="M41 24V0"></path></svg>	</span>
@@ -544,7 +544,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 											<a href="/" target="_self">
 										<div class="qodef-m-holder" style="align-items:center">
 						<div class="qodef-m-icon" style="--stroke-color: #8e7861;--stroke-hover-color: #8e7861;--fill-color: #ffffff00;--fill-hover-color: #ffffff00;--background-color: #ffffff00;--background-hover-color: #ffffff00">
-							<img class="cnss-logo" src="<?php echo get_template_directory_uri(); ?>/cnss_logo.svg" alt="CNSS" style="height:180px !important;width:auto !important;display:inline-block !important;">						</div>
+							<img class="cnss-logo" src="<?php echo get_template_directory_uri(); ?>/cnss_logo.svg" alt="CNSS" style="height:55px !important;width:auto !important;display:inline-block !important;">						</div>
 											</div>
 											</a>
 									</div>
