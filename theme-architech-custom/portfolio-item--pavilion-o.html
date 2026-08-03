@@ -1359,8 +1359,15 @@ const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(
   }
   thumbs.forEach(function(t){t.addEventListener("click",function(){show(+t.dataset.idx);});});
   var prev=gal.querySelector(".cnss-gal-prev"),next=gal.querySelector(".cnss-gal-next");
-  if(prev)prev.addEventListener("click",function(){show(cur-1);});
-  if(next)next.addEventListener("click",function(){show(cur+1);});
+  if(prev)prev.addEventListener("click",function(){show(cur-1);restart();});
+  if(next)next.addEventListener("click",function(){show(cur+1);restart();});
+  thumbs.forEach(function(t){t.addEventListener("click",restart);});
+  var timer=null;
+  function play(){timer=setInterval(function(){show(cur+1);},4000);}
+  function restart(){if(timer)clearInterval(timer);play();}
+  gal.addEventListener("mouseenter",function(){if(timer)clearInterval(timer);});
+  gal.addEventListener("mouseleave",play);
+  play();
 })();
 </script>
 </body></html>
