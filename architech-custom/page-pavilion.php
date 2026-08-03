@@ -22,7 +22,7 @@
 img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 /*# sourceURL=wp-img-auto-sizes-contain-inline-css */
 
-.qodef-header-logo-link img.cnss-logo{width:auto!important;height:55px!important;max-height:55px!important;max-width:none!important;flex:0 0 auto!important;}
+.qodef-header-logo-link img.cnss-logo{width:auto!important;height:100px!important;max-height:100px!important;max-width:none!important;flex:0 0 auto!important;}
 .qodef-header-logo-link.qodef-height--set{height:auto!important;max-height:none!important;}
 
 /* cnss-header-img-css */
@@ -37,7 +37,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 
 /* cnss-logo-fit */
 .widget img[src*=cnss_logo],.qodef-m-icon img[src*=cnss_logo],.qodef-m-image img[src*=cnss_logo]{display:none!important;}
-.qodef-header-logo-image.cnss-logo{height:55px!important;width:auto!important;max-height:55px!important;}
+.qodef-header-logo-image.cnss-logo{height:100px!important;width:auto!important;max-height:100px!important;}
 #qodef-page-header .qodef-header-logo-link{height:auto!important;display:flex;align-items:center;}
 </style>
 <link rel="stylesheet" id="animate-css" href="https://tadao.qodeinteractive.com/wp-content/plugins/qi-blocks/assets/css/plugins/animate/animate.min.css?ver=4.1.1" media="all">
@@ -226,7 +226,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<header id="qodef-page-header" role="banner">
 		<div id="qodef-page-header-inner" class="">
 		<a itemprop="url" class="qodef-header-logo-link qodef-height--set qodef-source--svg-path qodef--animate" href="/" rel="home">
-	<img class="cnss-logo" src="<?php echo get_template_directory_uri(); ?>/cnss_logo.svg" alt="CNSS" style="height:55px !important;width:auto !important;display:inline-block !important;"></a>
+	<img class="cnss-logo" src="<?php echo get_template_directory_uri(); ?>/cnss_logo.svg" alt="CNSS" style="height:100px !important;width:auto !important;display:inline-block !important;"></a>
 	<nav class="qodef-header-navigation" role="navigation" aria-label="Main Menu">
 <ul id="menu-main-menu-1" class="menu">
 <li class="menu-item menu-item-type-custom current-menu-item"><a href="/"><span class="qodef-menu-item-text">Home</span></a></li>
@@ -245,7 +245,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<div class="qodef-header-sticky qodef-custom-header-layout qodef-appearance--down">
 	<div class="qodef-header-sticky-inner ">
 		<a itemprop="url" class="qodef-header-logo-link qodef-height--set qodef-source--svg-path qodef--animate" href="/" rel="home">
-	<img class="cnss-logo" src="<?php echo get_template_directory_uri(); ?>/cnss_logo.svg" alt="CNSS" style="height:55px !important;width:auto !important;display:inline-block !important;"></a>
+	<img class="cnss-logo" src="<?php echo get_template_directory_uri(); ?>/cnss_logo.svg" alt="CNSS" style="height:100px !important;width:auto !important;display:inline-block !important;"></a>
 	<nav class="qodef-header-navigation" role="navigation" aria-label="Main Menu">
 <ul id="menu-main-menu-1" class="menu">
 <li class="menu-item menu-item-type-custom current-menu-item"><a href="/"><span class="qodef-menu-item-text">Home</span></a></li>
@@ -266,7 +266,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <header id="qodef-page-mobile-header" role="banner">
 		<div id="qodef-page-mobile-header-inner" class="qodef-content-grid">
 		<a itemprop="url" class="qodef-mobile-header-logo-link qodef-height--not-set qodef-source--svg-path" href="/" rel="home">
-	<img class="cnss-logo" src="<?php echo get_template_directory_uri(); ?>/cnss_logo.svg" alt="CNSS" style="height:55px !important;width:auto !important;display:inline-block !important;"></a>
+	<img class="cnss-logo" src="<?php echo get_template_directory_uri(); ?>/cnss_logo.svg" alt="CNSS" style="height:100px !important;width:auto !important;display:inline-block !important;"></a>
 <a href="javascript:void(0)" class="qodef-opener-icon qodef-m qodef-source--predefined qodef-mobile-header-opener">
 	<span class="qodef-m-icon qodef--open">
 		<svg class="qodef-svg--line-opener" xmlns="http://www.w3.org/2000/svg" width="42" height="24"><path d="M1 24V0"></path><path d="M9 24V0"></path><path d="M17 24V0"></path><path d="M25 24V0"></path><path d="M33 24V0"></path><path d="M41 24V0"></path></svg>	</span>
@@ -535,7 +535,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 											<a href="/" target="_self">
 										<div class="qodef-m-holder" style="align-items:center">
 						<div class="qodef-m-icon" style="--stroke-color: #8e7861;--stroke-hover-color: #8e7861;--fill-color: #ffffff00;--fill-hover-color: #ffffff00;--background-color: #ffffff00;--background-hover-color: #ffffff00">
-							<img class="cnss-logo" src="<?php echo get_template_directory_uri(); ?>/cnss_logo.svg" alt="CNSS" style="height:55px !important;width:auto !important;display:inline-block !important;">						</div>
+							<img class="cnss-logo" src="<?php echo get_template_directory_uri(); ?>/cnss_logo.svg" alt="CNSS" style="height:100px !important;width:auto !important;display:inline-block !important;">						</div>
 											</div>
 											</a>
 									</div>

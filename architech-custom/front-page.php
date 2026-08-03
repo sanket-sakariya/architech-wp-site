@@ -101,7 +101,7 @@ body  .qodef-widget-block-a2442353 .qi-block-spacer{height: 50px;} body  .qodef-
 }
 </style>
 <style>#qodef-page-mobile-header,.qodef-header-sticky{display:none!important}
-.qodef-header-logo-link img.cnss-logo{width:auto!important;height:55px!important;max-height:55px!important;max-width:none!important;flex:0 0 auto!important;}
+.qodef-header-logo-link img.cnss-logo{width:auto!important;height:100px!important;max-height:100px!important;max-width:none!important;flex:0 0 auto!important;}
 .qodef-header-logo-link.qodef-height--set{height:auto!important;max-height:none!important;}
 /* Center testimonial swiper (no JS running to position slides) */
 .qodef-testimonials-list .swiper-wrapper{transform:none!important;display:block!important;}
@@ -139,7 +139,7 @@ body  .qodef-widget-block-a2442353 .qi-block-spacer{height: 50px;} body  .qodef-
 </ul></nav>
 </div>
 <a itemprop="url" class="qodef-header-logo-link qodef-height--set qodef-source--svg-path qodef--animate" href="/" rel="home">
-	<img class="cnss-logo" src="<?php echo get_template_directory_uri(); ?>/cnss_logo.svg" alt="CNSS" style="height:55px !important;width:auto !important;display:inline-block !important;"></a>
+	<img class="cnss-logo" src="<?php echo get_template_directory_uri(); ?>/cnss_logo.svg" alt="CNSS" style="height:100px !important;width:auto !important;display:inline-block !important;"></a>
 <div class="qodef-divided-left-header-right-wrapper">
 		<div class="qodef-widget-holder qodef--one">
 		<div class="widget widget_tadao_core_social_icons_group" data-area="social-icons">			<div class="qodef-social-icons-group">
