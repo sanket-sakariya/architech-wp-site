@@ -211,111 +211,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<div id="qodef-page-header-inner" class="">
 		<a itemprop="url" class="qodef-header-logo-link qodef-height--set qodef-source--image" href="/" rel="home">
 	<img loading="lazy" width="140" height="130" src="https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/logo-gold.png" class="qodef-header-logo-image qodef--main" alt="logo main" itemprop="image"><img loading="lazy" width="140" height="130" src="https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/logo-dark.png" class="qodef-header-logo-image qodef--dark" alt="logo dark" itemprop="image"><img loading="lazy" width="140" height="130" src="https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/logo-light.png" class="qodef-header-logo-image qodef--light" alt="logo light" itemprop="image"></a>
-	<nav class="qodef-header-navigation" role="navigation" aria-label="Top Menu">
-		<ul id="menu-main-menu-1" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-17 qodef-menu-item--narrow"><a href="#"><span class="qodef-menu-item-text">Home<svg class="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="29.414" height="10"><path d="M25 5H0"></path><path d="m29.414 5-8.75 5V0Z"></path></svg></span></a>
-<div class="qodef-drop-down-second"><div class="qodef-drop-down-second-inner"><ul class="sub-menu">
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-314"><a href="/"><span class="qodef-menu-item-text">Main Home</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-310"><a href="architecture-studio.html"><span class="qodef-menu-item-text">Architecture Studio</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1102"><a href="residential-architecture.html"><span class="qodef-menu-item-text">Residential Architecture</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1319"><a href="architecture-home.html"><span class="qodef-menu-item-text">Architecture Home</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1318"><a href="interior-design-studio.html"><span class="qodef-menu-item-text">Interior Design Studio</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1506"><a href="metro-showcase.html"><span class="qodef-menu-item-text">Metro Showcase</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1715"><a href="furniture-design.html"><span class="qodef-menu-item-text">Furniture Design</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1876"><a href="architecture-bureau.html"><span class="qodef-menu-item-text">Architecture Bureau</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1912"><a href="house-decor.html"><span class="qodef-menu-item-text">House Décor</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3874"><a href="landing.html"><span class="qodef-menu-item-text">Landing</span></a></li>
-</ul></div></div>
-</li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-18 qodef-menu-item--narrow"><a href="#"><span class="qodef-menu-item-text">Pages<svg class="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="29.414" height="10"><path d="M25 5H0"></path><path d="m29.414 5-8.75 5V0Z"></path></svg></span></a>
-<div class="qodef-drop-down-second"><div class="qodef-drop-down-second-inner"><ul class="sub-menu">
-	<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2338 current_page_item menu-item-2516"><a href="/about-us/"><span class="qodef-menu-item-text">About us</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2535"><a href="our-services.html"><span class="qodef-menu-item-text">Our Services</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2515"><a href="our-team.html"><span class="qodef-menu-item-text">Our Team</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-team menu-item-3568"><a href="team--vincent-rasel.html"><span class="qodef-menu-item-text">Team Member</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2597"><a href="our-partners.html"><span class="qodef-menu-item-text">Our Partners</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2803"><a href="get-in-touch.html"><span class="qodef-menu-item-text">Get In Touch</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2804"><a href="/contact-us/"><span class="qodef-menu-item-text">Contact Us</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2611"><a href="f-a-q.html"><span class="qodef-menu-item-text">FAQ Page</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5916"><a href="coming-soon.html"><span class="qodef-menu-item-text">Coming Soon</span></a></li>
-</ul></div></div>
-</li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-19 qodef--hide-link qodef-menu-item--wide"><a href="#" onclick="JavaScript: return false;"><span class="qodef-menu-item-text">Portfolio<svg class="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="29.414" height="10"><path d="M25 5H0"></path><path d="m29.414 5-8.75 5V0Z"></path></svg></span></a>
-<div class="qodef-drop-down-second" style="left: -1062.39px; width: 1440px;"><div class="qodef-drop-down-second-inner qodef-content-grid"><ul class="sub-menu">
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-613"><a href="#"><span class="qodef-menu-item-text">List Types<svg class="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="29.414" height="10"><path d="M25 5H0"></path><path d="m29.414 5-8.75 5V0Z"></path></svg></span></a>
-	<ul class="sub-menu">
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3442"><a href="portfolio--standard-list.html"><span class="qodef-menu-item-text">Standard List</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3435"><a href="portfolio--gallery-list.html"><span class="qodef-menu-item-text">Gallery List</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3439"><a href="portfolio--masonry-list.html"><span class="qodef-menu-item-text">Masonry List</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3441"><a href="portfolio--slider-list.html"><span class="qodef-menu-item-text">Slider List</span></a></li>
-	</ul>
-</li>
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-614"><a href="#"><span class="qodef-menu-item-text">Layouts<svg class="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="29.414" height="10"><path d="M25 5H0"></path><path d="m29.414 5-8.75 5V0Z"></path></svg></span></a>
-	<ul class="sub-menu">
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3445"><a href="portfolio--two-columns.html"><span class="qodef-menu-item-text">Two Columns</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3443"><a href="portfolio--three-columns.html"><span class="qodef-menu-item-text">Three Columns</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3444"><a href="portfolio--three-columns-wide.html"><span class="qodef-menu-item-text">Three Columns Wide</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3433"><a href="portfolio--four-columns.html"><span class="qodef-menu-item-text">Four Columns</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3434"><a href="portfolio--four-columns-wide.html"><span class="qodef-menu-item-text">Four Columns Wide</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3432"><a href="portfolio--five-columns-wide.html"><span class="qodef-menu-item-text">Five Columns Wide</span></a></li>
-	</ul>
-</li>
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-616"><a href="#"><span class="qodef-menu-item-text">Hover Types<svg class="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="29.414" height="10"><path d="M25 5H0"></path><path d="m29.414 5-8.75 5V0Z"></path></svg></span></a>
-	<ul class="sub-menu">
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3436"><a href="portfolio--info-below.html"><span class="qodef-menu-item-text">Info Below</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3437"><a href="portfolio--info-on-hover.html"><span class="qodef-menu-item-text">Info on Hover</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3438"><a href="portfolio--info-on-image.html"><span class="qodef-menu-item-text">Info on Image</span></a></li>
-	</ul>
-</li>
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-615"><a href="#"><span class="qodef-menu-item-text">Single Types<svg class="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="29.414" height="10"><path d="M25 5H0"></path><path d="m29.414 5-8.75 5V0Z"></path></svg></span></a>
-	<ul class="sub-menu">
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-622"><a href="portfolio-item--neude-library.html"><span class="qodef-menu-item-text">Small Image</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-623"><a href="portfolio-item--villa-sevilla.html"><span class="qodef-menu-item-text">Big Image</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-618"><a href="/pavilion/"><span class="qodef-menu-item-text">Small Slider</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-619"><a href="portfolio-item--orkney-design.html"><span class="qodef-menu-item-text">Big Slider</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-621"><a href="portfolio-item--italian-furniture.html"><span class="qodef-menu-item-text">Small Gallery</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-620"><a href="portfolio-item--giuseppe-terragni.html"><span class="qodef-menu-item-text">Big Gallery</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-1103"><a href="portfolio-item--white-interiors.html"><span class="qodef-menu-item-text">Small Masonry</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-1104"><a href="portfolio-item--studio-tadao.html"><span class="qodef-menu-item-text">Big Masonry</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-617"><a href="portfolio-item--villa-manila-2022.html"><span class="qodef-menu-item-text">Split &amp; Wide</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-1108"><a href="portfolio-item--house-complex.html"><span class="qodef-menu-item-text">Wide</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-1106"><a href="portfolio-item--timber-building.html"><span class="qodef-menu-item-text">Assorted</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-1105"><a href="portfolio-item--villa-minah.html"><span class="qodef-menu-item-text">Alternating</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-1107"><a href="portfolio-item--villa-pierazzi.html"><span class="qodef-menu-item-text">Hero Image</span></a></li>
-	</ul>
-</li>
-</ul></div></div>
-</li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-20 qodef-menu-item--narrow"><a href="#"><span class="qodef-menu-item-text">Blog<svg class="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="29.414" height="10"><path d="M25 5H0"></path><path d="m29.414 5-8.75 5V0Z"></path></svg></span></a>
-<div class="qodef-drop-down-second qodef-drop-down--right"><div class="qodef-drop-down-second-inner"><ul class="sub-menu qodef-drop-down--right">
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2068"><a href="blog-right-sidebar.html"><span class="qodef-menu-item-text">Right Sidebar</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2883"><a href="/blog/"><span class="qodef-menu-item-text">Left Sidebar</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2882"><a href="blog-no-sidebar.html"><span class="qodef-menu-item-text">No Sidebar</span></a></li>
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2309"><a href="#"><span class="qodef-menu-item-text">Post Formats<svg class="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="29.414" height="10"><path d="M25 5H0"></path><path d="m29.414 5-8.75 5V0Z"></path></svg></span></a>
-	<ul class="sub-menu qodef-drop-down--right">
-		<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2313"><a href="innovate-stone-structures.html"><span class="qodef-menu-item-text">Standard</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2310"><a href="home-interior-design-ideas.html"><span class="qodef-menu-item-text">Video</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2315"><a href="solution-for-designe.html"><span class="qodef-menu-item-text">Link</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2312"><a href="new-approach-to-every-project.html"><span class="qodef-menu-item-text">Gallery</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2314"><a href="home-designe.html"><span class="qodef-menu-item-text">Quote</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2311"><a href="contemporary-architecture-and-design.html"><span class="qodef-menu-item-text">Audio</span></a></li>
-	</ul>
-</li>
-</ul></div></div>
-</li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-21 qodef-menu-item--narrow"><a href="#"><span class="qodef-menu-item-text">Shop<svg class="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="29.414" height="10"><path d="M25 5H0"></path><path d="m29.414 5-8.75 5V0Z"></path></svg></span></a>
-<div class="qodef-drop-down-second qodef-drop-down--right"><div class="qodef-drop-down-second-inner"><ul class="sub-menu qodef-drop-down--right">
-	<li class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2003"><a href="product--black-shower.html"><span class="qodef-menu-item-text">Product Single</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1600"><a href="shop.html"><span class="qodef-menu-item-text">Product List</span></a></li>
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1604"><a href="#"><span class="qodef-menu-item-text">Shop Pages<svg class="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="29.414" height="10"><path d="M25 5H0"></path><path d="m29.414 5-8.75 5V0Z"></path></svg></span></a>
-	<ul class="sub-menu qodef-drop-down--right">
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1601"><a href="/"><span class="qodef-menu-item-text">My account</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1603"><a href="/"><span class="qodef-menu-item-text">Cart</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1602"><a href="/"><span class="qodef-menu-item-text">Checkout</span></a></li>
-	</ul>
-</li>
-</ul></div></div>
-</li>
-</ul>	</nav>
+	<nav class="qodef-header-navigation" role="navigation" aria-label="Main Menu">
+<ul id="menu-main-menu-1" class="menu">
+<li class="menu-item menu-item-type-custom current-menu-item"><a href="/"><span class="qodef-menu-item-text">Home</span></a></li>
+<li class="menu-item menu-item-type-custom"><a href="/about-us/"><span class="qodef-menu-item-text">About Us</span></a></li>
+<li class="menu-item menu-item-type-custom"><a href="/pavilion/"><span class="qodef-menu-item-text">Portfolio</span></a></li>
+<li class="menu-item menu-item-type-custom"><a href="/blog/"><span class="qodef-menu-item-text">Blog</span></a></li>
+<li class="menu-item menu-item-type-custom"><a href="/contact-us/"><span class="qodef-menu-item-text">Contact Us</span></a></li>
+</ul></nav>
 	<div class="qodef-widget-holder qodef--one">
 		<div id="tadao_core_side_area_opener-4" class="widget widget_tadao_core_side_area_opener qodef-header-widget-area-one" data-area="header-widget-one"><a href="javascript:void(0)" class="qodef-opener-icon qodef-m qodef-source--predefined qodef-side-area-opener">
 	<span class="qodef-m-icon qodef--open">
@@ -327,111 +230,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<div class="qodef-header-sticky-inner ">
 		<a itemprop="url" class="qodef-header-logo-link qodef-height--set qodef-source--image" href="/" rel="home">
 	<img loading="lazy" width="140" height="130" src="https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/logo-gold.png" class="qodef-header-logo-image qodef--main" alt="logo main" itemprop="image"></a>
-	<nav class="qodef-header-navigation" role="navigation" aria-label="Top Menu">
-		<ul id="menu-main-menu-2" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-17 qodef-menu-item--narrow"><a href="#"><span class="qodef-menu-item-text">Home<svg class="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="29.414" height="10"><path d="M25 5H0"></path><path d="m29.414 5-8.75 5V0Z"></path></svg></span></a>
-<div class="qodef-drop-down-second"><div class="qodef-drop-down-second-inner"><ul class="sub-menu">
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-314"><a href="/"><span class="qodef-menu-item-text">Main Home</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-310"><a href="architecture-studio.html"><span class="qodef-menu-item-text">Architecture Studio</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1102"><a href="residential-architecture.html"><span class="qodef-menu-item-text">Residential Architecture</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1319"><a href="architecture-home.html"><span class="qodef-menu-item-text">Architecture Home</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1318"><a href="interior-design-studio.html"><span class="qodef-menu-item-text">Interior Design Studio</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1506"><a href="metro-showcase.html"><span class="qodef-menu-item-text">Metro Showcase</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1715"><a href="furniture-design.html"><span class="qodef-menu-item-text">Furniture Design</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1876"><a href="architecture-bureau.html"><span class="qodef-menu-item-text">Architecture Bureau</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1912"><a href="house-decor.html"><span class="qodef-menu-item-text">House Décor</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3874"><a href="landing.html"><span class="qodef-menu-item-text">Landing</span></a></li>
-</ul></div></div>
-</li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-18 qodef-menu-item--narrow"><a href="#"><span class="qodef-menu-item-text">Pages<svg class="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="29.414" height="10"><path d="M25 5H0"></path><path d="m29.414 5-8.75 5V0Z"></path></svg></span></a>
-<div class="qodef-drop-down-second"><div class="qodef-drop-down-second-inner"><ul class="sub-menu">
-	<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2338 current_page_item menu-item-2516"><a href="/about-us/"><span class="qodef-menu-item-text">About us</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2535"><a href="our-services.html"><span class="qodef-menu-item-text">Our Services</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2515"><a href="our-team.html"><span class="qodef-menu-item-text">Our Team</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-team menu-item-3568"><a href="team--vincent-rasel.html"><span class="qodef-menu-item-text">Team Member</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2597"><a href="our-partners.html"><span class="qodef-menu-item-text">Our Partners</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2803"><a href="get-in-touch.html"><span class="qodef-menu-item-text">Get In Touch</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2804"><a href="/contact-us/"><span class="qodef-menu-item-text">Contact Us</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2611"><a href="f-a-q.html"><span class="qodef-menu-item-text">FAQ Page</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5916"><a href="coming-soon.html"><span class="qodef-menu-item-text">Coming Soon</span></a></li>
-</ul></div></div>
-</li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-19 qodef--hide-link qodef-menu-item--wide"><a href="#" onclick="JavaScript: return false;"><span class="qodef-menu-item-text">Portfolio<svg class="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="29.414" height="10"><path d="M25 5H0"></path><path d="m29.414 5-8.75 5V0Z"></path></svg></span></a>
-<div class="qodef-drop-down-second" style="left: -1062.39px; width: 1440px;"><div class="qodef-drop-down-second-inner qodef-content-grid"><ul class="sub-menu">
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-613"><a href="#"><span class="qodef-menu-item-text">List Types<svg class="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="29.414" height="10"><path d="M25 5H0"></path><path d="m29.414 5-8.75 5V0Z"></path></svg></span></a>
-	<ul class="sub-menu">
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3442"><a href="portfolio--standard-list.html"><span class="qodef-menu-item-text">Standard List</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3435"><a href="portfolio--gallery-list.html"><span class="qodef-menu-item-text">Gallery List</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3439"><a href="portfolio--masonry-list.html"><span class="qodef-menu-item-text">Masonry List</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3441"><a href="portfolio--slider-list.html"><span class="qodef-menu-item-text">Slider List</span></a></li>
-	</ul>
-</li>
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-614"><a href="#"><span class="qodef-menu-item-text">Layouts<svg class="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="29.414" height="10"><path d="M25 5H0"></path><path d="m29.414 5-8.75 5V0Z"></path></svg></span></a>
-	<ul class="sub-menu">
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3445"><a href="portfolio--two-columns.html"><span class="qodef-menu-item-text">Two Columns</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3443"><a href="portfolio--three-columns.html"><span class="qodef-menu-item-text">Three Columns</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3444"><a href="portfolio--three-columns-wide.html"><span class="qodef-menu-item-text">Three Columns Wide</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3433"><a href="portfolio--four-columns.html"><span class="qodef-menu-item-text">Four Columns</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3434"><a href="portfolio--four-columns-wide.html"><span class="qodef-menu-item-text">Four Columns Wide</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3432"><a href="portfolio--five-columns-wide.html"><span class="qodef-menu-item-text">Five Columns Wide</span></a></li>
-	</ul>
-</li>
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-616"><a href="#"><span class="qodef-menu-item-text">Hover Types<svg class="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="29.414" height="10"><path d="M25 5H0"></path><path d="m29.414 5-8.75 5V0Z"></path></svg></span></a>
-	<ul class="sub-menu">
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3436"><a href="portfolio--info-below.html"><span class="qodef-menu-item-text">Info Below</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3437"><a href="portfolio--info-on-hover.html"><span class="qodef-menu-item-text">Info on Hover</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3438"><a href="portfolio--info-on-image.html"><span class="qodef-menu-item-text">Info on Image</span></a></li>
-	</ul>
-</li>
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-615"><a href="#"><span class="qodef-menu-item-text">Single Types<svg class="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="29.414" height="10"><path d="M25 5H0"></path><path d="m29.414 5-8.75 5V0Z"></path></svg></span></a>
-	<ul class="sub-menu">
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-622"><a href="portfolio-item--neude-library.html"><span class="qodef-menu-item-text">Small Image</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-623"><a href="portfolio-item--villa-sevilla.html"><span class="qodef-menu-item-text">Big Image</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-618"><a href="/pavilion/"><span class="qodef-menu-item-text">Small Slider</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-619"><a href="portfolio-item--orkney-design.html"><span class="qodef-menu-item-text">Big Slider</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-621"><a href="portfolio-item--italian-furniture.html"><span class="qodef-menu-item-text">Small Gallery</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-620"><a href="portfolio-item--giuseppe-terragni.html"><span class="qodef-menu-item-text">Big Gallery</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-1103"><a href="portfolio-item--white-interiors.html"><span class="qodef-menu-item-text">Small Masonry</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-1104"><a href="portfolio-item--studio-tadao.html"><span class="qodef-menu-item-text">Big Masonry</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-617"><a href="portfolio-item--villa-manila-2022.html"><span class="qodef-menu-item-text">Split &amp; Wide</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-1108"><a href="portfolio-item--house-complex.html"><span class="qodef-menu-item-text">Wide</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-1106"><a href="portfolio-item--timber-building.html"><span class="qodef-menu-item-text">Assorted</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-1105"><a href="portfolio-item--villa-minah.html"><span class="qodef-menu-item-text">Alternating</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-1107"><a href="portfolio-item--villa-pierazzi.html"><span class="qodef-menu-item-text">Hero Image</span></a></li>
-	</ul>
-</li>
-</ul></div></div>
-</li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-20 qodef-menu-item--narrow"><a href="#"><span class="qodef-menu-item-text">Blog<svg class="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="29.414" height="10"><path d="M25 5H0"></path><path d="m29.414 5-8.75 5V0Z"></path></svg></span></a>
-<div class="qodef-drop-down-second qodef-drop-down--right"><div class="qodef-drop-down-second-inner"><ul class="sub-menu qodef-drop-down--right">
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2068"><a href="blog-right-sidebar.html"><span class="qodef-menu-item-text">Right Sidebar</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2883"><a href="/blog/"><span class="qodef-menu-item-text">Left Sidebar</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2882"><a href="blog-no-sidebar.html"><span class="qodef-menu-item-text">No Sidebar</span></a></li>
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2309"><a href="#"><span class="qodef-menu-item-text">Post Formats<svg class="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="29.414" height="10"><path d="M25 5H0"></path><path d="m29.414 5-8.75 5V0Z"></path></svg></span></a>
-	<ul class="sub-menu qodef-drop-down--right">
-		<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2313"><a href="innovate-stone-structures.html"><span class="qodef-menu-item-text">Standard</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2310"><a href="home-interior-design-ideas.html"><span class="qodef-menu-item-text">Video</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2315"><a href="solution-for-designe.html"><span class="qodef-menu-item-text">Link</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2312"><a href="new-approach-to-every-project.html"><span class="qodef-menu-item-text">Gallery</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2314"><a href="home-designe.html"><span class="qodef-menu-item-text">Quote</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2311"><a href="contemporary-architecture-and-design.html"><span class="qodef-menu-item-text">Audio</span></a></li>
-	</ul>
-</li>
-</ul></div></div>
-</li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-21 qodef-menu-item--narrow"><a href="#"><span class="qodef-menu-item-text">Shop<svg class="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="29.414" height="10"><path d="M25 5H0"></path><path d="m29.414 5-8.75 5V0Z"></path></svg></span></a>
-<div class="qodef-drop-down-second qodef-drop-down--right"><div class="qodef-drop-down-second-inner"><ul class="sub-menu qodef-drop-down--right">
-	<li class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2003"><a href="product--black-shower.html"><span class="qodef-menu-item-text">Product Single</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1600"><a href="shop.html"><span class="qodef-menu-item-text">Product List</span></a></li>
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1604"><a href="#"><span class="qodef-menu-item-text">Shop Pages<svg class="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="29.414" height="10"><path d="M25 5H0"></path><path d="m29.414 5-8.75 5V0Z"></path></svg></span></a>
-	<ul class="sub-menu qodef-drop-down--right">
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1601"><a href="/"><span class="qodef-menu-item-text">My account</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1603"><a href="/"><span class="qodef-menu-item-text">Cart</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1602"><a href="/"><span class="qodef-menu-item-text">Checkout</span></a></li>
-	</ul>
-</li>
-</ul></div></div>
-</li>
-</ul>	</nav>
+	<nav class="qodef-header-navigation" role="navigation" aria-label="Main Menu">
+<ul id="menu-main-menu-1" class="menu">
+<li class="menu-item menu-item-type-custom current-menu-item"><a href="/"><span class="qodef-menu-item-text">Home</span></a></li>
+<li class="menu-item menu-item-type-custom"><a href="/about-us/"><span class="qodef-menu-item-text">About Us</span></a></li>
+<li class="menu-item menu-item-type-custom"><a href="/pavilion/"><span class="qodef-menu-item-text">Portfolio</span></a></li>
+<li class="menu-item menu-item-type-custom"><a href="/blog/"><span class="qodef-menu-item-text">Blog</span></a></li>
+<li class="menu-item menu-item-type-custom"><a href="/contact-us/"><span class="qodef-menu-item-text">Contact Us</span></a></li>
+</ul></nav>
 	<div class="qodef-widget-holder qodef--one">
 		<div id="tadao_core_side_area_opener-7" class="widget widget_tadao_core_side_area_opener qodef-sticky-right"><a href="javascript:void(0)" class="qodef-opener-icon qodef-m qodef-source--predefined qodef-side-area-opener">
 	<span class="qodef-m-icon qodef--open">
