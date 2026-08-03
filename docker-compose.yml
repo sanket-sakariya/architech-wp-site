@@ -27,6 +27,7 @@ services:
     volumes:
       - jija_wp_data:/var/www/html
       - ./jija-theme:/var/www/html/wp-content/themes/jija-theme
+      - ./architech-custom:/var/www/html/wp-content/themes/architech-custom
 
   wpcli:
     image: wordpress:cli
@@ -42,6 +43,7 @@ services:
     volumes:
       - jija_wp_data:/var/www/html
       - ./jija-theme:/var/www/html/wp-content/themes/jija-theme
+      - ./architech-custom:/var/www/html/wp-content/themes/architech-custom
     entrypoint: wp
     command: "--info"
     user: "33:33"
