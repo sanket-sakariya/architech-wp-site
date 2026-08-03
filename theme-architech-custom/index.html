@@ -34,13 +34,6 @@
 img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 /*# sourceURL=wp-img-auto-sizes-contain-inline-css */
 
-/* ===== Light mode theme ===== */
-body.cnss-light,body.cnss-light #qodef-page-wrapper,body.cnss-light #qodef-page-header,body.cnss-light #qodef-page-header-inner,body.cnss-light .elementor-section,body.cnss-light .elementor-column,body.cnss-light section{background-color:#f4f2ec!important;}
-body.cnss-light,body.cnss-light p,body.cnss-light span,body.cnss-light li,body.cnss-light h1,body.cnss-light h2,body.cnss-light h3,body.cnss-light h4,body.cnss-light h5,body.cnss-light h6,body.cnss-light .elementor-heading-title,body.cnss-light .qodef-menu-item-text,body.cnss-light a{color:#1a1a1a!important;}
-body.cnss-light .qodef-e-title,body.cnss-light .qodef-m-title{color:#8e7861!important;}
-#cnss-theme-toggle{position:fixed;bottom:24px;left:24px;z-index:9999;width:52px;height:52px;border-radius:50%;border:2px solid #8e7861;background:rgba(0,0,0,.6);color:#8e7861;font-size:22px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:.3s;}
-#cnss-theme-toggle:hover{background:#8e7861;color:#fff;}
-body.cnss-light #cnss-theme-toggle{background:rgba(255,255,255,.85);}
 </style>
 <style>
 
@@ -1339,21 +1332,5 @@ body  .qodef-widget-block-a2442353 .qi-block-spacer{height: 50px;} body  .qodef-
 	</div>
 </footer>
 
-<button id="cnss-theme-toggle" aria-label="Toggle light/dark mode" title="Toggle light/dark mode">☾</button>
-<script>
-(function(){
-  var body=document.body, btn=document.getElementById("cnss-theme-toggle");
-  function apply(mode){
-    if(mode==="light"){body.classList.add("cnss-light");btn.innerHTML="☀";}
-    else{body.classList.remove("cnss-light");btn.innerHTML="☾";}
-  }
-  apply(localStorage.getItem("cnss-theme")||"dark");
-  btn.addEventListener("click",function(){
-    var light=!body.classList.contains("cnss-light");
-    apply(light?"light":"dark");
-    localStorage.setItem("cnss-theme",light?"light":"dark");
-  });
-})();
-</script>
 </body>
 </html>
