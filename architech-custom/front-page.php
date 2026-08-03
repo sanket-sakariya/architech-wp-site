@@ -122,7 +122,7 @@ body  .qodef-widget-block-a2442353 .qi-block-spacer{height: 50px;} body  .qodef-
 		<nav class="qodef-header-navigation" role="navigation" aria-label="Divided Left Left Menu">
 		<ul id="menu-main-menu-1" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-17 qodef-menu-item--narrow"><a href="#"><span class="qodef-menu-item-text">Home<svg class="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="29.414" height="10"><path d="M25 5H0"></path><path d="m29.414 5-8.75 5V0Z"></path></svg></span></a>
 <div class="qodef-drop-down-second"><div class="qodef-drop-down-second-inner"><ul class="sub-menu">
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-314"><a href="https://tadao.qodeinteractive.com/"><span class="qodef-menu-item-text">Main Home</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-314"><a href="/"><span class="qodef-menu-item-text">Main Home</span></a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-280 current_page_item menu-item-310"><a href="https://tadao.qodeinteractive.com/architecture-studio/"><span class="qodef-menu-item-text">Architecture Studio</span></a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1102"><a href="https://tadao.qodeinteractive.com/residential-architecture/"><span class="qodef-menu-item-text">Residential Architecture</span></a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1319"><a href="https://tadao.qodeinteractive.com/architecture-home/"><span class="qodef-menu-item-text">Architecture Home</span></a></li>
@@ -136,13 +136,13 @@ body  .qodef-widget-block-a2442353 .qi-block-spacer{height: 50px;} body  .qodef-
 </li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-18 qodef-menu-item--narrow"><a href="#"><span class="qodef-menu-item-text">Pages<svg class="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="29.414" height="10"><path d="M25 5H0"></path><path d="m29.414 5-8.75 5V0Z"></path></svg></span></a>
 <div class="qodef-drop-down-second"><div class="qodef-drop-down-second-inner"><ul class="sub-menu">
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2516"><a href="https://tadao.qodeinteractive.com/about-us/"><span class="qodef-menu-item-text">About us</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2516"><a href="/about-us/"><span class="qodef-menu-item-text">About us</span></a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2535"><a href="https://tadao.qodeinteractive.com/our-services/"><span class="qodef-menu-item-text">Our Services</span></a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2515"><a href="https://tadao.qodeinteractive.com/our-team/"><span class="qodef-menu-item-text">Our Team</span></a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-team menu-item-3568"><a href="https://tadao.qodeinteractive.com/team/vincent-rasel/"><span class="qodef-menu-item-text">Team Member</span></a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2597"><a href="https://tadao.qodeinteractive.com/our-partners/"><span class="qodef-menu-item-text">Our Partners</span></a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2803"><a href="https://tadao.qodeinteractive.com/get-in-touch/"><span class="qodef-menu-item-text">Get In Touch</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2804"><a href="https://tadao.qodeinteractive.com/contact-us/"><span class="qodef-menu-item-text">Contact Us</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2804"><a href="/contact-us/"><span class="qodef-menu-item-text">Contact Us</span></a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2611"><a href="https://tadao.qodeinteractive.com/f-a-q/"><span class="qodef-menu-item-text">FAQ Page</span></a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5916"><a href="https://tadao.qodeinteractive.com/coming-soon/"><span class="qodef-menu-item-text">Coming Soon</span></a></li>
 </ul></div></div>
@@ -151,53 +151,53 @@ body  .qodef-widget-block-a2442353 .qi-block-spacer{height: 50px;} body  .qodef-
 <div class="qodef-drop-down-second" style="left: -227.203px; width: 1440px;"><div class="qodef-drop-down-second-inner qodef-content-grid"><ul class="sub-menu">
 	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-613"><a href="#"><span class="qodef-menu-item-text">List Types<svg class="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="29.414" height="10"><path d="M25 5H0"></path><path d="m29.414 5-8.75 5V0Z"></path></svg></span></a>
 	<ul class="sub-menu">
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3442"><a href="https://tadao.qodeinteractive.com/portfolio/standard-list/"><span class="qodef-menu-item-text">Standard List</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3435"><a href="https://tadao.qodeinteractive.com/portfolio/gallery-list/"><span class="qodef-menu-item-text">Gallery List</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3439"><a href="https://tadao.qodeinteractive.com/portfolio/masonry-list/"><span class="qodef-menu-item-text">Masonry List</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3441"><a href="https://tadao.qodeinteractive.com/portfolio/slider-list/"><span class="qodef-menu-item-text">Slider List</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3442"><a href="/pavilion/"><span class="qodef-menu-item-text">Standard List</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3435"><a href="/pavilion/"><span class="qodef-menu-item-text">Gallery List</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3439"><a href="/pavilion/"><span class="qodef-menu-item-text">Masonry List</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3441"><a href="/pavilion/"><span class="qodef-menu-item-text">Slider List</span></a></li>
 	</ul>
 </li>
 	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-614"><a href="#"><span class="qodef-menu-item-text">Layouts<svg class="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="29.414" height="10"><path d="M25 5H0"></path><path d="m29.414 5-8.75 5V0Z"></path></svg></span></a>
 	<ul class="sub-menu">
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3445"><a href="https://tadao.qodeinteractive.com/portfolio/two-columns/"><span class="qodef-menu-item-text">Two Columns</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3443"><a href="https://tadao.qodeinteractive.com/portfolio/three-columns/"><span class="qodef-menu-item-text">Three Columns</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3444"><a href="https://tadao.qodeinteractive.com/portfolio/three-columns-wide/"><span class="qodef-menu-item-text">Three Columns Wide</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3433"><a href="https://tadao.qodeinteractive.com/portfolio/four-columns/"><span class="qodef-menu-item-text">Four Columns</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3434"><a href="https://tadao.qodeinteractive.com/portfolio/four-columns-wide/"><span class="qodef-menu-item-text">Four Columns Wide</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3432"><a href="https://tadao.qodeinteractive.com/portfolio/five-columns-wide/"><span class="qodef-menu-item-text">Five Columns Wide</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3445"><a href="/pavilion/"><span class="qodef-menu-item-text">Two Columns</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3443"><a href="/pavilion/"><span class="qodef-menu-item-text">Three Columns</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3444"><a href="/pavilion/"><span class="qodef-menu-item-text">Three Columns Wide</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3433"><a href="/pavilion/"><span class="qodef-menu-item-text">Four Columns</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3434"><a href="/pavilion/"><span class="qodef-menu-item-text">Four Columns Wide</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3432"><a href="/pavilion/"><span class="qodef-menu-item-text">Five Columns Wide</span></a></li>
 	</ul>
 </li>
 	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-616"><a href="#"><span class="qodef-menu-item-text">Hover Types<svg class="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="29.414" height="10"><path d="M25 5H0"></path><path d="m29.414 5-8.75 5V0Z"></path></svg></span></a>
 	<ul class="sub-menu">
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3436"><a href="https://tadao.qodeinteractive.com/portfolio/info-below/"><span class="qodef-menu-item-text">Info Below</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3437"><a href="https://tadao.qodeinteractive.com/portfolio/info-on-hover/"><span class="qodef-menu-item-text">Info on Hover</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3438"><a href="https://tadao.qodeinteractive.com/portfolio/info-on-image/"><span class="qodef-menu-item-text">Info on Image</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3436"><a href="/pavilion/"><span class="qodef-menu-item-text">Info Below</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3437"><a href="/pavilion/"><span class="qodef-menu-item-text">Info on Hover</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3438"><a href="/pavilion/"><span class="qodef-menu-item-text">Info on Image</span></a></li>
 	</ul>
 </li>
 	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-615"><a href="#"><span class="qodef-menu-item-text">Single Types<svg class="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="29.414" height="10"><path d="M25 5H0"></path><path d="m29.414 5-8.75 5V0Z"></path></svg></span></a>
 	<ul class="sub-menu">
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-622"><a href="https://tadao.qodeinteractive.com/portfolio-item/neude-library/"><span class="qodef-menu-item-text">Small Image</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-623"><a href="https://tadao.qodeinteractive.com/portfolio-item/villa-sevilla/"><span class="qodef-menu-item-text">Big Image</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-618"><a href="https://tadao.qodeinteractive.com/portfolio-item/pavilion-o/"><span class="qodef-menu-item-text">Small Slider</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-619"><a href="https://tadao.qodeinteractive.com/portfolio-item/orkney-design/"><span class="qodef-menu-item-text">Big Slider</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-621"><a href="https://tadao.qodeinteractive.com/portfolio-item/italian-furniture/"><span class="qodef-menu-item-text">Small Gallery</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-620"><a href="https://tadao.qodeinteractive.com/portfolio-item/giuseppe-terragni/"><span class="qodef-menu-item-text">Big Gallery</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-1103"><a href="https://tadao.qodeinteractive.com/portfolio-item/white-interiors/"><span class="qodef-menu-item-text">Small Masonry</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-1104"><a href="https://tadao.qodeinteractive.com/portfolio-item/studio-tadao/"><span class="qodef-menu-item-text">Big Masonry</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-617"><a href="https://tadao.qodeinteractive.com/portfolio-item/villa-manila-2022/"><span class="qodef-menu-item-text">Split &amp; Wide</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-1108"><a href="https://tadao.qodeinteractive.com/portfolio-item/house-complex/"><span class="qodef-menu-item-text">Wide</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-1106"><a href="https://tadao.qodeinteractive.com/portfolio-item/timber-building/"><span class="qodef-menu-item-text">Assorted</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-1105"><a href="https://tadao.qodeinteractive.com/portfolio-item/villa-minah/"><span class="qodef-menu-item-text">Alternating</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-1107"><a href="https://tadao.qodeinteractive.com/portfolio-item/villa-pierazzi/"><span class="qodef-menu-item-text">Hero Image</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-622"><a href="/pavilion/"><span class="qodef-menu-item-text">Small Image</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-623"><a href="/pavilion/"><span class="qodef-menu-item-text">Big Image</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-618"><a href="/pavilion/"><span class="qodef-menu-item-text">Small Slider</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-619"><a href="/pavilion/"><span class="qodef-menu-item-text">Big Slider</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-621"><a href="/pavilion/"><span class="qodef-menu-item-text">Small Gallery</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-620"><a href="/pavilion/"><span class="qodef-menu-item-text">Big Gallery</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-1103"><a href="/pavilion/"><span class="qodef-menu-item-text">Small Masonry</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-1104"><a href="/pavilion/"><span class="qodef-menu-item-text">Big Masonry</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-617"><a href="/pavilion/"><span class="qodef-menu-item-text">Split &amp; Wide</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-1108"><a href="/pavilion/"><span class="qodef-menu-item-text">Wide</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-1106"><a href="/pavilion/"><span class="qodef-menu-item-text">Assorted</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-1105"><a href="/pavilion/"><span class="qodef-menu-item-text">Alternating</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-1107"><a href="/pavilion/"><span class="qodef-menu-item-text">Hero Image</span></a></li>
 	</ul>
 </li>
 </ul></div></div>
 </li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-20 qodef-menu-item--narrow"><a href="#"><span class="qodef-menu-item-text">Blog<svg class="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="29.414" height="10"><path d="M25 5H0"></path><path d="m29.414 5-8.75 5V0Z"></path></svg></span></a>
 <div class="qodef-drop-down-second"><div class="qodef-drop-down-second-inner"><ul class="sub-menu">
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2068"><a href="https://tadao.qodeinteractive.com/blog-right-sidebar/"><span class="qodef-menu-item-text">Right Sidebar</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2883"><a href="https://tadao.qodeinteractive.com/blog-left-sidebar/"><span class="qodef-menu-item-text">Left Sidebar</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2882"><a href="https://tadao.qodeinteractive.com/blog-no-sidebar/"><span class="qodef-menu-item-text">No Sidebar</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2068"><a href="/blog/"><span class="qodef-menu-item-text">Right Sidebar</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2883"><a href="/blog/"><span class="qodef-menu-item-text">Left Sidebar</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2882"><a href="/blog/"><span class="qodef-menu-item-text">No Sidebar</span></a></li>
 	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2309"><a href="#"><span class="qodef-menu-item-text">Post Formats<svg class="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="29.414" height="10"><path d="M25 5H0"></path><path d="m29.414 5-8.75 5V0Z"></path></svg></span></a>
 	<ul class="sub-menu">
 		<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2313"><a href="https://tadao.qodeinteractive.com/innovate-stone-structures/"><span class="qodef-menu-item-text">Standard</span></a></li>
@@ -225,7 +225,7 @@ body  .qodef-widget-block-a2442353 .qi-block-spacer{height: 50px;} body  .qodef-
 </li>
 </ul>	</nav>
 </div>
-<a itemprop="url" class="qodef-header-logo-link qodef-height--set qodef-source--svg-path qodef--animate" href="https://tadao.qodeinteractive.com/" rel="home">
+<a itemprop="url" class="qodef-header-logo-link qodef-height--set qodef-source--svg-path qodef--animate" href="/" rel="home">
 	<img class="cnss-logo" src="<?php echo get_template_directory_uri(); ?>/cnss_logo.svg" alt="CNSS" style="height:180px !important;width:auto !important;display:inline-block !important;"></a>
 <div class="qodef-divided-left-header-right-wrapper">
 		<div class="qodef-widget-holder qodef--one">
@@ -246,7 +246,7 @@ body  .qodef-widget-block-a2442353 .qi-block-spacer{height: 50px;} body  .qodef-
 				<nav class="qodef-header-navigation" role="navigation" aria-label="Divided Left Left Menu">
 		<ul id="menu-main-menu-2" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-17 qodef-menu-item--narrow"><a href="#"><span class="qodef-menu-item-text">Home<svg class="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="29.414" height="10"><path d="M25 5H0"></path><path d="m29.414 5-8.75 5V0Z"></path></svg></span></a>
 <div class="qodef-drop-down-second"><div class="qodef-drop-down-second-inner"><ul class="sub-menu">
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-314"><a href="https://tadao.qodeinteractive.com/"><span class="qodef-menu-item-text">Main Home</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-314"><a href="/"><span class="qodef-menu-item-text">Main Home</span></a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-280 current_page_item menu-item-310"><a href="https://tadao.qodeinteractive.com/architecture-studio/"><span class="qodef-menu-item-text">Architecture Studio</span></a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1102"><a href="https://tadao.qodeinteractive.com/residential-architecture/"><span class="qodef-menu-item-text">Residential Architecture</span></a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1319"><a href="https://tadao.qodeinteractive.com/architecture-home/"><span class="qodef-menu-item-text">Architecture Home</span></a></li>
@@ -260,13 +260,13 @@ body  .qodef-widget-block-a2442353 .qi-block-spacer{height: 50px;} body  .qodef-
 </li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-18 qodef-menu-item--narrow"><a href="#"><span class="qodef-menu-item-text">Pages<svg class="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="29.414" height="10"><path d="M25 5H0"></path><path d="m29.414 5-8.75 5V0Z"></path></svg></span></a>
 <div class="qodef-drop-down-second"><div class="qodef-drop-down-second-inner"><ul class="sub-menu">
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2516"><a href="https://tadao.qodeinteractive.com/about-us/"><span class="qodef-menu-item-text">About us</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2516"><a href="/about-us/"><span class="qodef-menu-item-text">About us</span></a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2535"><a href="https://tadao.qodeinteractive.com/our-services/"><span class="qodef-menu-item-text">Our Services</span></a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2515"><a href="https://tadao.qodeinteractive.com/our-team/"><span class="qodef-menu-item-text">Our Team</span></a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-team menu-item-3568"><a href="https://tadao.qodeinteractive.com/team/vincent-rasel/"><span class="qodef-menu-item-text">Team Member</span></a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2597"><a href="https://tadao.qodeinteractive.com/our-partners/"><span class="qodef-menu-item-text">Our Partners</span></a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2803"><a href="https://tadao.qodeinteractive.com/get-in-touch/"><span class="qodef-menu-item-text">Get In Touch</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2804"><a href="https://tadao.qodeinteractive.com/contact-us/"><span class="qodef-menu-item-text">Contact Us</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2804"><a href="/contact-us/"><span class="qodef-menu-item-text">Contact Us</span></a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2611"><a href="https://tadao.qodeinteractive.com/f-a-q/"><span class="qodef-menu-item-text">FAQ Page</span></a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5916"><a href="https://tadao.qodeinteractive.com/coming-soon/"><span class="qodef-menu-item-text">Coming Soon</span></a></li>
 </ul></div></div>
@@ -275,53 +275,53 @@ body  .qodef-widget-block-a2442353 .qi-block-spacer{height: 50px;} body  .qodef-
 <div class="qodef-drop-down-second" style="left: -227.203px; width: 1440px;"><div class="qodef-drop-down-second-inner qodef-content-grid"><ul class="sub-menu">
 	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-613"><a href="#"><span class="qodef-menu-item-text">List Types<svg class="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="29.414" height="10"><path d="M25 5H0"></path><path d="m29.414 5-8.75 5V0Z"></path></svg></span></a>
 	<ul class="sub-menu">
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3442"><a href="https://tadao.qodeinteractive.com/portfolio/standard-list/"><span class="qodef-menu-item-text">Standard List</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3435"><a href="https://tadao.qodeinteractive.com/portfolio/gallery-list/"><span class="qodef-menu-item-text">Gallery List</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3439"><a href="https://tadao.qodeinteractive.com/portfolio/masonry-list/"><span class="qodef-menu-item-text">Masonry List</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3441"><a href="https://tadao.qodeinteractive.com/portfolio/slider-list/"><span class="qodef-menu-item-text">Slider List</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3442"><a href="/pavilion/"><span class="qodef-menu-item-text">Standard List</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3435"><a href="/pavilion/"><span class="qodef-menu-item-text">Gallery List</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3439"><a href="/pavilion/"><span class="qodef-menu-item-text">Masonry List</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3441"><a href="/pavilion/"><span class="qodef-menu-item-text">Slider List</span></a></li>
 	</ul>
 </li>
 	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-614"><a href="#"><span class="qodef-menu-item-text">Layouts<svg class="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="29.414" height="10"><path d="M25 5H0"></path><path d="m29.414 5-8.75 5V0Z"></path></svg></span></a>
 	<ul class="sub-menu">
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3445"><a href="https://tadao.qodeinteractive.com/portfolio/two-columns/"><span class="qodef-menu-item-text">Two Columns</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3443"><a href="https://tadao.qodeinteractive.com/portfolio/three-columns/"><span class="qodef-menu-item-text">Three Columns</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3444"><a href="https://tadao.qodeinteractive.com/portfolio/three-columns-wide/"><span class="qodef-menu-item-text">Three Columns Wide</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3433"><a href="https://tadao.qodeinteractive.com/portfolio/four-columns/"><span class="qodef-menu-item-text">Four Columns</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3434"><a href="https://tadao.qodeinteractive.com/portfolio/four-columns-wide/"><span class="qodef-menu-item-text">Four Columns Wide</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3432"><a href="https://tadao.qodeinteractive.com/portfolio/five-columns-wide/"><span class="qodef-menu-item-text">Five Columns Wide</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3445"><a href="/pavilion/"><span class="qodef-menu-item-text">Two Columns</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3443"><a href="/pavilion/"><span class="qodef-menu-item-text">Three Columns</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3444"><a href="/pavilion/"><span class="qodef-menu-item-text">Three Columns Wide</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3433"><a href="/pavilion/"><span class="qodef-menu-item-text">Four Columns</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3434"><a href="/pavilion/"><span class="qodef-menu-item-text">Four Columns Wide</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3432"><a href="/pavilion/"><span class="qodef-menu-item-text">Five Columns Wide</span></a></li>
 	</ul>
 </li>
 	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-616"><a href="#"><span class="qodef-menu-item-text">Hover Types<svg class="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="29.414" height="10"><path d="M25 5H0"></path><path d="m29.414 5-8.75 5V0Z"></path></svg></span></a>
 	<ul class="sub-menu">
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3436"><a href="https://tadao.qodeinteractive.com/portfolio/info-below/"><span class="qodef-menu-item-text">Info Below</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3437"><a href="https://tadao.qodeinteractive.com/portfolio/info-on-hover/"><span class="qodef-menu-item-text">Info on Hover</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3438"><a href="https://tadao.qodeinteractive.com/portfolio/info-on-image/"><span class="qodef-menu-item-text">Info on Image</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3436"><a href="/pavilion/"><span class="qodef-menu-item-text">Info Below</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3437"><a href="/pavilion/"><span class="qodef-menu-item-text">Info on Hover</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3438"><a href="/pavilion/"><span class="qodef-menu-item-text">Info on Image</span></a></li>
 	</ul>
 </li>
 	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-615"><a href="#"><span class="qodef-menu-item-text">Single Types<svg class="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="29.414" height="10"><path d="M25 5H0"></path><path d="m29.414 5-8.75 5V0Z"></path></svg></span></a>
 	<ul class="sub-menu">
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-622"><a href="https://tadao.qodeinteractive.com/portfolio-item/neude-library/"><span class="qodef-menu-item-text">Small Image</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-623"><a href="https://tadao.qodeinteractive.com/portfolio-item/villa-sevilla/"><span class="qodef-menu-item-text">Big Image</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-618"><a href="https://tadao.qodeinteractive.com/portfolio-item/pavilion-o/"><span class="qodef-menu-item-text">Small Slider</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-619"><a href="https://tadao.qodeinteractive.com/portfolio-item/orkney-design/"><span class="qodef-menu-item-text">Big Slider</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-621"><a href="https://tadao.qodeinteractive.com/portfolio-item/italian-furniture/"><span class="qodef-menu-item-text">Small Gallery</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-620"><a href="https://tadao.qodeinteractive.com/portfolio-item/giuseppe-terragni/"><span class="qodef-menu-item-text">Big Gallery</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-1103"><a href="https://tadao.qodeinteractive.com/portfolio-item/white-interiors/"><span class="qodef-menu-item-text">Small Masonry</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-1104"><a href="https://tadao.qodeinteractive.com/portfolio-item/studio-tadao/"><span class="qodef-menu-item-text">Big Masonry</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-617"><a href="https://tadao.qodeinteractive.com/portfolio-item/villa-manila-2022/"><span class="qodef-menu-item-text">Split &amp; Wide</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-1108"><a href="https://tadao.qodeinteractive.com/portfolio-item/house-complex/"><span class="qodef-menu-item-text">Wide</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-1106"><a href="https://tadao.qodeinteractive.com/portfolio-item/timber-building/"><span class="qodef-menu-item-text">Assorted</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-1105"><a href="https://tadao.qodeinteractive.com/portfolio-item/villa-minah/"><span class="qodef-menu-item-text">Alternating</span></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-1107"><a href="https://tadao.qodeinteractive.com/portfolio-item/villa-pierazzi/"><span class="qodef-menu-item-text">Hero Image</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-622"><a href="/pavilion/"><span class="qodef-menu-item-text">Small Image</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-623"><a href="/pavilion/"><span class="qodef-menu-item-text">Big Image</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-618"><a href="/pavilion/"><span class="qodef-menu-item-text">Small Slider</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-619"><a href="/pavilion/"><span class="qodef-menu-item-text">Big Slider</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-621"><a href="/pavilion/"><span class="qodef-menu-item-text">Small Gallery</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-620"><a href="/pavilion/"><span class="qodef-menu-item-text">Big Gallery</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-1103"><a href="/pavilion/"><span class="qodef-menu-item-text">Small Masonry</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-1104"><a href="/pavilion/"><span class="qodef-menu-item-text">Big Masonry</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-617"><a href="/pavilion/"><span class="qodef-menu-item-text">Split &amp; Wide</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-1108"><a href="/pavilion/"><span class="qodef-menu-item-text">Wide</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-1106"><a href="/pavilion/"><span class="qodef-menu-item-text">Assorted</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-1105"><a href="/pavilion/"><span class="qodef-menu-item-text">Alternating</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-portfolio-item menu-item-1107"><a href="/pavilion/"><span class="qodef-menu-item-text">Hero Image</span></a></li>
 	</ul>
 </li>
 </ul></div></div>
 </li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-20 qodef-menu-item--narrow"><a href="#"><span class="qodef-menu-item-text">Blog<svg class="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="29.414" height="10"><path d="M25 5H0"></path><path d="m29.414 5-8.75 5V0Z"></path></svg></span></a>
 <div class="qodef-drop-down-second"><div class="qodef-drop-down-second-inner"><ul class="sub-menu">
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2068"><a href="https://tadao.qodeinteractive.com/blog-right-sidebar/"><span class="qodef-menu-item-text">Right Sidebar</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2883"><a href="https://tadao.qodeinteractive.com/blog-left-sidebar/"><span class="qodef-menu-item-text">Left Sidebar</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2882"><a href="https://tadao.qodeinteractive.com/blog-no-sidebar/"><span class="qodef-menu-item-text">No Sidebar</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2068"><a href="/blog/"><span class="qodef-menu-item-text">Right Sidebar</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2883"><a href="/blog/"><span class="qodef-menu-item-text">Left Sidebar</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2882"><a href="/blog/"><span class="qodef-menu-item-text">No Sidebar</span></a></li>
 	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2309"><a href="#"><span class="qodef-menu-item-text">Post Formats<svg class="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="29.414" height="10"><path d="M25 5H0"></path><path d="m29.414 5-8.75 5V0Z"></path></svg></span></a>
 	<ul class="sub-menu">
 		<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2313"><a href="https://tadao.qodeinteractive.com/innovate-stone-structures/"><span class="qodef-menu-item-text">Standard</span></a></li>
@@ -349,7 +349,7 @@ body  .qodef-widget-block-a2442353 .qi-block-spacer{height: 50px;} body  .qodef-
 </li>
 </ul>	</nav>
 		</div>
-		<a itemprop="url" class="qodef-header-logo-link qodef-height--set qodef-source--svg-path" href="https://tadao.qodeinteractive.com/" rel="home">
+		<a itemprop="url" class="qodef-header-logo-link qodef-height--set qodef-source--svg-path" href="/" rel="home">
 	<svg xmlns="http://www.w3.org/2000/svg" width="52" height="69" viewBox="0 0 81.7 74.8" stroke-width="2.2">
 	<path d="M14.2 34S41.6 48 41.4 74.7" style="--qode-path-length: 53;"></path>
 	<path d="M25.8 16.3S57.4 32.2 62 74" style="--qode-path-length: 72;"></path>
@@ -1046,17 +1046,17 @@ body  .qodef-widget-block-a2442353 .qi-block-spacer{height: 50px;} body  .qodef-
 	<div class="qodef-e-inner">
 		<div class="qodef-e-media">
 				<div class="qodef-e-media-image">
-		<a itemprop="url" href="https://tadao.qodeinteractive.com/portfolio-item/studio-hiroshi/" target="_self">
+		<a itemprop="url" href="/pavilion/" target="_self">
 			<img loading="lazy" decoding="async" width="1000" height="1000" src="https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-1.jpg" class="attachment-full size-full" alt="s" srcset="https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-1.jpg 1000w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-1-600x600.jpg 600w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-1-100x100.jpg 100w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-1-800x800.jpg 800w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-1-300x300.jpg 300w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-1-150x150.jpg 150w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-1-768x768.jpg 768w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-1-650x650.jpg 650w" sizes="(max-width: 1000px) 100vw, 1000px">		</a>
 	</div>
 		</div>
 		<div class="qodef-e-content" style="margin-top:11px" data-swiper-parallax="-140" data-swiper-parallax-duration="1200">
 			<h5 itemprop="name" class="qodef-e-title entry-title">
-	<a itemprop="url" class="qodef-e-title-link" href="https://tadao.qodeinteractive.com/portfolio-item/studio-hiroshi/" target="_self">
+	<a itemprop="url" class="qodef-e-title-link" href="/pavilion/" target="_self">
 		Studio Hiroshi	</a>
 </h5>
 				<div class="qodef-e-categories">
-		<a href="https://tadao.qodeinteractive.com/portfolio-category/smart-living/" rel="tag">Smart living</a>	</div>
+		<a href="/pavilion/" rel="tag">Smart living</a>	</div>
 		</div>
 	</div>
 </article>
@@ -1064,17 +1064,17 @@ body  .qodef-widget-block-a2442353 .qi-block-spacer{height: 50px;} body  .qodef-
 	<div class="qodef-e-inner">
 		<div class="qodef-e-media">
 				<div class="qodef-e-media-image">
-		<a itemprop="url" href="https://tadao.qodeinteractive.com/portfolio-item/glass-wall/" target="_self">
+		<a itemprop="url" href="/pavilion/" target="_self">
 			<img loading="lazy" decoding="async" width="1000" height="670" src="https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-2.jpg" class="attachment-full size-full" alt="s" srcset="https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-2.jpg 1000w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-2-600x402.jpg 600w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-2-800x536.jpg 800w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-2-300x201.jpg 300w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-2-768x515.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px">		</a>
 	</div>
 		</div>
 		<div class="qodef-e-content" style="margin-top:11px" data-swiper-parallax="-140" data-swiper-parallax-duration="1200">
 			<h5 itemprop="name" class="qodef-e-title entry-title">
-	<a itemprop="url" class="qodef-e-title-link" href="https://tadao.qodeinteractive.com/portfolio-item/glass-wall/" target="_self">
+	<a itemprop="url" class="qodef-e-title-link" href="/pavilion/" target="_self">
 		Glass Wall	</a>
 </h5>
 				<div class="qodef-e-categories">
-		<a href="https://tadao.qodeinteractive.com/portfolio-category/smart-living/" rel="tag">Smart living</a>	</div>
+		<a href="/pavilion/" rel="tag">Smart living</a>	</div>
 		</div>
 	</div>
 </article>
@@ -1082,17 +1082,17 @@ body  .qodef-widget-block-a2442353 .qi-block-spacer{height: 50px;} body  .qodef-
 	<div class="qodef-e-inner" style="margin: 2.2% 0% 0% 0%">
 		<div class="qodef-e-media">
 				<div class="qodef-e-media-image">
-		<a itemprop="url" href="https://tadao.qodeinteractive.com/portfolio-item/creative-vision/" target="_self">
+		<a itemprop="url" href="/pavilion/" target="_self">
 			<img loading="lazy" decoding="async" width="1000" height="670" src="https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-3.jpg" class="attachment-full size-full" alt="s" srcset="https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-3.jpg 1000w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-3-600x402.jpg 600w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-3-800x536.jpg 800w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-3-300x201.jpg 300w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-3-768x515.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px">		</a>
 	</div>
 		</div>
 		<div class="qodef-e-content" style="margin-top:11px" data-swiper-parallax="-140" data-swiper-parallax-duration="1200">
 			<h5 itemprop="name" class="qodef-e-title entry-title">
-	<a itemprop="url" class="qodef-e-title-link" href="https://tadao.qodeinteractive.com/portfolio-item/creative-vision/" target="_self">
+	<a itemprop="url" class="qodef-e-title-link" href="/pavilion/" target="_self">
 		Creative Vision	</a>
 </h5>
 				<div class="qodef-e-categories">
-		<a href="https://tadao.qodeinteractive.com/portfolio-category/smart-living/" rel="tag">Smart living</a>	</div>
+		<a href="/pavilion/" rel="tag">Smart living</a>	</div>
 		</div>
 	</div>
 </article>
@@ -1100,17 +1100,17 @@ body  .qodef-widget-block-a2442353 .qi-block-spacer{height: 50px;} body  .qodef-
 	<div class="qodef-e-inner" style="margin: -30.8% 0% 0% 0%">
 		<div class="qodef-e-media">
 				<div class="qodef-e-media-image">
-		<a itemprop="url" href="https://tadao.qodeinteractive.com/portfolio-item/svensson/" target="_self">
+		<a itemprop="url" href="/pavilion/" target="_self">
 			<img loading="lazy" decoding="async" width="1000" height="1000" src="https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-4.jpg" class="attachment-full size-full" alt="s" srcset="https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-4.jpg 1000w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-4-600x600.jpg 600w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-4-100x100.jpg 100w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-4-800x800.jpg 800w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-4-300x300.jpg 300w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-4-150x150.jpg 150w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-4-768x768.jpg 768w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-4-650x650.jpg 650w" sizes="(max-width: 1000px) 100vw, 1000px">		</a>
 	</div>
 		</div>
 		<div class="qodef-e-content" style="margin-top:11px" data-swiper-parallax="-140" data-swiper-parallax-duration="1200">
 			<h5 itemprop="name" class="qodef-e-title entry-title">
-	<a itemprop="url" class="qodef-e-title-link" href="https://tadao.qodeinteractive.com/portfolio-item/svensson/" target="_self">
+	<a itemprop="url" class="qodef-e-title-link" href="/pavilion/" target="_self">
 		Svensson	</a>
 </h5>
 				<div class="qodef-e-categories">
-		<a href="https://tadao.qodeinteractive.com/portfolio-category/smart-living/" rel="tag">Smart living</a>	</div>
+		<a href="/pavilion/" rel="tag">Smart living</a>	</div>
 		</div>
 	</div>
 </article>

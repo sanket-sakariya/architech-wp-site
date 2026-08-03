@@ -294,7 +294,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-20 qodef-menu-item--narrow"><a href="#"><span class="qodef-menu-item-text">Blog<svg class="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="29.414" height="10"><path d="M25 5H0"></path><path d="m29.414 5-8.75 5V0Z"></path></svg></span></a>
 <div class="qodef-drop-down-second qodef-drop-down--right"><div class="qodef-drop-down-second-inner"><ul class="sub-menu qodef-drop-down--right">
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2068"><a href="blog-right-sidebar.html"><span class="qodef-menu-item-text">Right Sidebar</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2883"><a href="blog-left-sidebar.html"><span class="qodef-menu-item-text">Left Sidebar</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2883"><a href="/blog/"><span class="qodef-menu-item-text">Left Sidebar</span></a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2882"><a href="blog-no-sidebar.html"><span class="qodef-menu-item-text">No Sidebar</span></a></li>
 	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2309"><a href="#"><span class="qodef-menu-item-text">Post Formats<svg class="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="29.414" height="10"><path d="M25 5H0"></path><path d="m29.414 5-8.75 5V0Z"></path></svg></span></a>
 	<ul class="sub-menu qodef-drop-down--right">
@@ -418,7 +418,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-20 qodef-menu-item--narrow"><a href="#"><span class="qodef-menu-item-text">Blog<svg class="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="29.414" height="10"><path d="M25 5H0"></path><path d="m29.414 5-8.75 5V0Z"></path></svg></span></a>
 <div class="qodef-drop-down-second qodef-drop-down--right"><div class="qodef-drop-down-second-inner"><ul class="sub-menu qodef-drop-down--right">
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2068"><a href="blog-right-sidebar.html"><span class="qodef-menu-item-text">Right Sidebar</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2883"><a href="blog-left-sidebar.html"><span class="qodef-menu-item-text">Left Sidebar</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2883"><a href="/blog/"><span class="qodef-menu-item-text">Left Sidebar</span></a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2882"><a href="blog-no-sidebar.html"><span class="qodef-menu-item-text">No Sidebar</span></a></li>
 	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2309"><a href="#"><span class="qodef-menu-item-text">Post Formats<svg class="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="29.414" height="10"><path d="M25 5H0"></path><path d="m29.414 5-8.75 5V0Z"></path></svg></span></a>
 	<ul class="sub-menu qodef-drop-down--right">
@@ -551,7 +551,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-20 qodef-menu-item--narrow"><a href="#"><span class="qodef-menu-item-text">Blog</span></a><svg class="qodef-svg--mobile-menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="8.84" height="12.608" viewBox="0 0 8.84 12.608"><path data-name="Path 43" d="m.312.391 7.705 6.141-7.705 5.674" fill="none" stroke="currentColor"></path></svg>
 <div class="qodef-drop-down-second"><div class="qodef-drop-down-second-inner"><ul class="sub-menu">
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2068"><a href="blog-right-sidebar.html"><span class="qodef-menu-item-text">Right Sidebar</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2883"><a href="blog-left-sidebar.html"><span class="qodef-menu-item-text">Left Sidebar</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2883"><a href="/blog/"><span class="qodef-menu-item-text">Left Sidebar</span></a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2882"><a href="blog-no-sidebar.html"><span class="qodef-menu-item-text">No Sidebar</span></a></li>
 	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2309"><a href="#"><span class="qodef-menu-item-text">Post Formats</span></a><svg class="qodef-svg--mobile-menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="8.84" height="12.608" viewBox="0 0 8.84 12.608"><path data-name="Path 43" d="m.312.391 7.705 6.141-7.705 5.674" fill="none" stroke="currentColor"></path></svg>
 	<ul class="sub-menu">
