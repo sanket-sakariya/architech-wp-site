@@ -34,6 +34,16 @@
 img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 /*# sourceURL=wp-img-auto-sizes-contain-inline-css */
 
+
+/* cnss-header-img-css */
+.qodef-header-logo-image.cnss-logo{width:auto!important;height:180px!important;max-height:none!important;max-width:none!important;}
+.qodef-header-logo-link{height:auto!important;}
+
+/* cnss-single-logo */
+.qodef-header-logo-image.qodef--dark,.qodef-header-logo-image.qodef--light{display:none!important;}
+.qodef-m-icon img.cnss-logo,.qodef-m-icon img[src*=cnss_logo]{display:none!important;}
+#qodef-page-header .qodef-header-sticky,.qodef-header-sticky-holder{display:none!important;}
+.qodef-header-logo-image.qodef--main.cnss-logo ~ .qodef-header-logo-image{display:none!important;}
 </style>
 <style>
 

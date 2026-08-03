@@ -19,6 +19,24 @@
 <style id="wp-img-auto-sizes-contain-inline-css">
 img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 /*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+
+.qodef-header-logo-link img.cnss-logo{width:auto!important;height:180px!important;max-height:none!important;max-width:none!important;flex:0 0 auto!important;}
+.qodef-header-logo-link.qodef-height--set{height:auto!important;max-height:none!important;}
+
+/* cnss-header-img-css */
+.qodef-header-logo-image.cnss-logo{width:auto!important;height:180px!important;max-height:none!important;max-width:none!important;}
+.qodef-header-logo-link{height:auto!important;}
+
+/* cnss-single-logo */
+.qodef-header-logo-image.qodef--dark,.qodef-header-logo-image.qodef--light{display:none!important;}
+.qodef-m-icon img.cnss-logo,.qodef-m-icon img[src*=cnss_logo]{display:none!important;}
+#qodef-page-header .qodef-header-sticky,.qodef-header-sticky-holder{display:none!important;}
+.qodef-header-logo-image.qodef--main.cnss-logo ~ .qodef-header-logo-image{display:none!important;}
+
+/* cnss-logo-fit */
+.widget img[src*=cnss_logo],.qodef-m-icon img[src*=cnss_logo],.qodef-m-image img[src*=cnss_logo]{display:none!important;}
+.qodef-header-logo-image.cnss-logo{height:64px!important;width:auto!important;max-height:64px!important;}
+#qodef-page-header .qodef-header-logo-link{height:auto!important;display:flex;align-items:center;}
 </style>
 <link rel="stylesheet" id="animate-css" href="https://tadao.qodeinteractive.com/wp-content/plugins/qi-blocks/assets/css/plugins/animate/animate.min.css?ver=4.1.1" media="all">
 <link rel="stylesheet" id="elegant-icons-css" href="https://tadao.qodeinteractive.com/wp-content/plugins/tadao-core/inc/icons/elegant-icons/assets/css/elegant-icons.min.css?ver=1.2.6" media="all">
@@ -210,7 +228,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<header id="qodef-page-header" role="banner">
 		<div id="qodef-page-header-inner" class="">
 		<a itemprop="url" class="qodef-header-logo-link qodef-height--set qodef-source--image" href="/" rel="home">
-	<img loading="lazy" width="140" height="130" src="https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/logo-gold.png" class="qodef-header-logo-image qodef--main" alt="logo main" itemprop="image"><img loading="lazy" width="140" height="130" src="https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/logo-dark.png" class="qodef-header-logo-image qodef--dark" alt="logo dark" itemprop="image"><img loading="lazy" width="140" height="130" src="https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/logo-light.png" class="qodef-header-logo-image qodef--light" alt="logo light" itemprop="image"></a>
+	<img loading="lazy" width="140" height="130" src="<?php echo get_template_directory_uri(); ?>/cnss_logo.svg" class="qodef-header-logo-image qodef--main cnss-logo" alt="logo main" itemprop="image"><img loading="lazy" width="140" height="130" src="<?php echo get_template_directory_uri(); ?>/cnss_logo.svg" class="qodef-header-logo-image qodef--dark" alt="logo dark" itemprop="image"><img loading="lazy" width="140" height="130" src="<?php echo get_template_directory_uri(); ?>/cnss_logo.svg" class="qodef-header-logo-image qodef--light" alt="logo light" itemprop="image"></a>
 	<nav class="qodef-header-navigation" role="navigation" aria-label="Main Menu">
 <ul id="menu-main-menu-1" class="menu">
 <li class="menu-item menu-item-type-custom current-menu-item"><a href="/"><span class="qodef-menu-item-text">Home</span></a></li>
@@ -229,7 +247,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<div class="qodef-header-sticky qodef-custom-header-layout qodef-appearance--down">
 	<div class="qodef-header-sticky-inner ">
 		<a itemprop="url" class="qodef-header-logo-link qodef-height--set qodef-source--image" href="/" rel="home">
-	<img loading="lazy" width="140" height="130" src="https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/logo-gold.png" class="qodef-header-logo-image qodef--main" alt="logo main" itemprop="image"></a>
+	<img loading="lazy" width="140" height="130" src="<?php echo get_template_directory_uri(); ?>/cnss_logo.svg" class="qodef-header-logo-image qodef--main cnss-logo" alt="logo main" itemprop="image"></a>
 	<nav class="qodef-header-navigation" role="navigation" aria-label="Main Menu">
 <ul id="menu-main-menu-1" class="menu">
 <li class="menu-item menu-item-type-custom current-menu-item"><a href="/"><span class="qodef-menu-item-text">Home</span></a></li>
@@ -250,15 +268,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <header id="qodef-page-mobile-header" role="banner">
 		<div id="qodef-page-mobile-header-inner" class="qodef-content-grid">
 		<a itemprop="url" class="qodef-mobile-header-logo-link qodef-height--not-set qodef-source--svg-path" href="/" rel="home">
-	<svg xmlns="http://www.w3.org/2000/svg" width="65" height="60" viewBox="0 0 81.7 74.8" stroke-width="2">
-	<path d="M14.2 34S41.6 48 41.4 74.7" style="--qode-path-length: 53;"></path>
-	<path d="M25.8 16.3S57.4 32.2 62 74" style="--qode-path-length: 72;"></path>
-	<path d="M56.7 16.3S25 32.2 20.3 74" style="--qode-path-length: 72;"></path>
-	<path d="M68.2 34.2s-26.9 14-26.6 40.5" style="--qode-path-length: 52;"></path>
-	<path d="M2 74.7S3.1 32.5 41 1" style="--qode-path-length: 87;"></path>
-	<path d="M80 74.7S78.7 32.4 41 1" style="--qode-path-length: 87;"></path>
-	<path d="M.8.8h80.1V74H.8Z" style="--qode-path-length: 308;"></path>
-</svg></a>
+	<img class="cnss-logo" src="<?php echo get_template_directory_uri(); ?>/cnss_logo.svg" alt="CNSS" style="height:180px !important;width:auto !important;display:inline-block !important;"></a>
 <a href="javascript:void(0)" class="qodef-opener-icon qodef-m qodef-source--predefined qodef-mobile-header-opener">
 	<span class="qodef-m-icon qodef--open">
 		<svg class="qodef-svg--line-opener" xmlns="http://www.w3.org/2000/svg" width="42" height="24"><path d="M1 24V0"></path><path d="M9 24V0"></path><path d="M17 24V0"></path><path d="M25 24V0"></path><path d="M33 24V0"></path><path d="M41 24V0"></path></svg>	</span>
@@ -1141,39 +1151,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 											<a href="/" target="_self">
 										<div class="qodef-m-holder" style="align-items:center">
 						<div class="qodef-m-icon" style="--stroke-color: #8e7861;--stroke-hover-color: #8e7861;--fill-color: #ffffff00;--fill-hover-color: #ffffff00;--background-color: #ffffff00;--background-hover-color: #ffffff00">
-							<svg xmlns="http://www.w3.org/2000/svg" width="70" height="65" viewBox="0 0 81.7 74.8" class="qodef--custom-animated-logo">
-
- 
-
-<path d="M14.2 34S41.6 48 41.4 74.7" style="--qode-path-length: 53;"></path>
-
- 
-
-<path d="M25.8 16.3S57.4 32.2 62 74" style="--qode-path-length: 72;"></path>
-
- 
-
-<path d="M56.7 16.3S25 32.2 20.3 74" style="--qode-path-length: 72;"></path>
-
- 
-
-<path d="M68.2 34.2s-26.9 14-26.6 40.5" style="--qode-path-length: 52;"></path>
-
- 
-
-<path d="M2 74.7S3.1 32.5 41 1" style="--qode-path-length: 87;"></path>
-
- 
-
-<path d="M80 74.7S78.7 32.4 41 1" style="--qode-path-length: 87;"></path>
-
- 
-
-<path d="M.8.8h80.1V74H.8Z" style="--qode-path-length: 308;"></path>
-
- 
-
-</svg>						</div>
+							<img class="cnss-logo" src="<?php echo get_template_directory_uri(); ?>/cnss_logo.svg" alt="CNSS" style="height:180px !important;width:auto !important;display:inline-block !important;">						</div>
 											</div>
 											</a>
 									</div>
@@ -1197,7 +1175,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<svg class="qodef-svg--close" xmlns="http://www.w3.org/2000/svg" width="27.325" height="24.498"><path d="m.663.749 26 23"></path><path d="m26.663.749-26 23"></path></svg>	</span>
 		</a>
 		<div id="qodef-side-area-inner">
-			<div id="tadao_core_single_image-2" class="widget widget_tadao_core_single_image" data-area="side-area"><div class="qodef-shortcode qodef-m qodef-single-image qodef-layout--default qodef-item-offset-appear-direction--to-left qodef--retina">			<div class="qodef-m-image">							<a itemprop="url" href="/" target="_self">																<img loading="lazy" itemprop="image" src="https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/side-area-logo.png" width="70" height="65" alt="">															</a>					</div>	</div></div><div id="tadao_core_title_widget-18" class="widget widget_tadao_core_title_widget" data-area="side-area">							<h4 class="qodef-widget-title">
+			<div id="tadao_core_single_image-2" class="widget widget_tadao_core_single_image" data-area="side-area"><div class="qodef-shortcode qodef-m qodef-single-image qodef-layout--default qodef-item-offset-appear-direction--to-left qodef--retina">			<div class="qodef-m-image">							<a itemprop="url" href="/" target="_self">																<img loading="lazy" itemprop="image" src="<?php echo get_template_directory_uri(); ?>/cnss_logo.svg" width="70" height="65" alt="">															</a>					</div>	</div></div><div id="tadao_core_title_widget-18" class="widget widget_tadao_core_title_widget" data-area="side-area">							<h4 class="qodef-widget-title">
 				Tadao Architecture				</h4>
 						</div><div id="tadao_core_social_icons_group-3" class="widget widget_tadao_core_social_icons_group" data-area="side-area">			<div class="qodef-social-icons-group">
 										<span class="qodef-icon-holder qodef--textual" data-hover-color="#8e7861">
