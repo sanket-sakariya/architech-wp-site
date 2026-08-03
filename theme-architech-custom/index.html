@@ -93,7 +93,8 @@ body  .qodef-widget-block-a2442353 .qi-block-spacer{height: 50px;} body  .qodef-
 /* Center testimonial swiper (no JS running to position slides) */
 .qodef-testimonials-list .swiper-wrapper{transform:none!important;display:block!important;}
 .qodef-testimonials-list .swiper-slide{display:none!important;}
-.qodef-testimonials-list .swiper-slide:first-child{display:block!important;width:100%!important;margin:0!important;}
+.qodef-testimonials-list .swiper-slide:not(.swiper-slide-duplicate){display:none!important;}
+.qodef-testimonials-list .swiper-slide:not(.swiper-slide-duplicate):first-of-type{display:block!important;width:100%!important;margin:0!important;opacity:1!important;}
 .qodef-testimonials-list .qodef-e-inner,
 .qodef-testimonials-list .qodef-e-content,
 .qodef-testimonials-list .qodef-e-title,
