@@ -399,20 +399,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					<div class="qodef-grid-item qodef-col--content">
 						<div class="cnss-gallery">
 			<div class="cnss-gal-main">
-				<img class="cnss-gal-main-img is-active" src="https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/port-slider-gallery-img-2.jpg" alt="Pavilion O 1" >
-				<img class="cnss-gal-main-img" src="https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/port-slider-gallery-img-3.jpg" alt="Pavilion O 2" style="display:none">
-				<img class="cnss-gal-main-img" src="https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/port-slider-gallery-img-4.jpg" alt="Pavilion O 3" style="display:none">
-				<img class="cnss-gal-main-img" src="https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/port-custom-4-gallery-img-1.jpg" alt="Pavilion O 4" style="display:none">
-				<img class="cnss-gal-main-img" src="https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/port-custom-4-gallery-img-2.jpg" alt="Pavilion O 5" style="display:none">
+				<img class="cnss-gal-main-img is-active" src="<?php echo architech_get_portfolio_image(1); ?>" alt="Pavilion O 1" >
+				<img class="cnss-gal-main-img" src="<?php echo architech_get_portfolio_image(2); ?>" alt="Pavilion O 2" style="display:none">
+				<img class="cnss-gal-main-img" src="<?php echo architech_get_portfolio_image(3); ?>" alt="Pavilion O 3" style="display:none">
+				<img class="cnss-gal-main-img" src="<?php echo architech_get_portfolio_image(4); ?>" alt="Pavilion O 4" style="display:none">
+				<img class="cnss-gal-main-img" src="<?php echo architech_get_portfolio_image(5); ?>" alt="Pavilion O 5" style="display:none">
 				<button class="cnss-gal-arrow cnss-gal-prev" aria-label="Previous">&#10094;</button>
 				<button class="cnss-gal-arrow cnss-gal-next" aria-label="Next">&#10095;</button>
 			</div>
 			<div class="cnss-gal-thumbs">
-				<button class="cnss-gal-thumb is-active" data-idx="0"><img src="https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/port-slider-gallery-img-2.jpg" alt="thumb 1" loading="lazy"></button>
-				<button class="cnss-gal-thumb" data-idx="1"><img src="https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/port-slider-gallery-img-3.jpg" alt="thumb 2" loading="lazy"></button>
-				<button class="cnss-gal-thumb" data-idx="2"><img src="https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/port-slider-gallery-img-4.jpg" alt="thumb 3" loading="lazy"></button>
-				<button class="cnss-gal-thumb" data-idx="3"><img src="https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/port-custom-4-gallery-img-1.jpg" alt="thumb 4" loading="lazy"></button>
-				<button class="cnss-gal-thumb" data-idx="4"><img src="https://tadao.qodeinteractive.com/wp-content/uploads/2023/04/port-custom-4-gallery-img-2.jpg" alt="thumb 5" loading="lazy"></button>
+				<button class="cnss-gal-thumb is-active" data-idx="0"><img src="<?php echo architech_get_portfolio_image(1); ?>" alt="thumb 1" loading="lazy"></button>
+				<button class="cnss-gal-thumb" data-idx="1"><img src="<?php echo architech_get_portfolio_image(2); ?>" alt="thumb 2" loading="lazy"></button>
+				<button class="cnss-gal-thumb" data-idx="2"><img src="<?php echo architech_get_portfolio_image(3); ?>" alt="thumb 3" loading="lazy"></button>
+				<button class="cnss-gal-thumb" data-idx="3"><img src="<?php echo architech_get_portfolio_image(4); ?>" alt="thumb 4" loading="lazy"></button>
+				<button class="cnss-gal-thumb" data-idx="4"><img src="<?php echo architech_get_portfolio_image(5); ?>" alt="thumb 5" loading="lazy"></button>
 			</div>
 		</div>
 					</div>
