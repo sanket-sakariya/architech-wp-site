@@ -177,3 +177,119 @@ function architech_custom_content_customize_register( $wp_customize ) {
     }
 }
 add_action( 'customize_register', 'architech_custom_content_customize_register' );
+
+/* =====================================================================
+ * CNSS Portfolio — Custom Post Type with per-project editable content
+ * ===================================================================== */
+
+// 1. Register the Portfolio custom post type
+function architech_register_portfolio_cpt() {
+    register_post_type( 'cnss_portfolio', array(
+        'labels' => array(
+            'name'          => __( 'Portfolio', 'architech-custom' ),
+            'singular_name' => __( 'Project', 'architech-custom' ),
+            'add_new_item'  => __( 'Add New Project', 'architech-custom' ),
+            'edit_item'     => __( 'Edit Project', 'architech-custom' ),
+            'all_items'     => __( 'All Projects', 'architech-custom' ),
+            'menu_name'     => __( 'Portfolio', 'architech-custom' ),
+        ),
+        'public'       => true,
+        'has_archive'  => true,
+        'menu_icon'    => 'dashicons-portfolio',
+        'supports'     => array( 'title', 'thumbnail' ),
+        'rewrite'      => array( 'slug' => 'portfolio-project' ),
+        'show_in_rest' => true,
+    ) );
+}
+add_action( 'init', 'architech_register_portfolio_cpt' );
+
+// Field map reused by meta box + save
+function architech_portfolio_fields() {
+    return array(
+        'description'   => array( 'Description', 'textarea' ),
+        'client'        => array( 'Client', 'text' ),
+        'architect'     => array( 'Architect', 'text' ),
+        'location'      => array( 'Location', 'text' ),
+        'category'      => array( 'Category', 'text' ),
+        'about_heading' => array( 'About Heading', 'text' ),
+        'about_para1'   => array( 'About Paragraph 1', 'textarea' ),
+        'about_para2'   => array( 'About Paragraph 2', 'textarea' ),
+        'about_quote'   => array( 'Highlighted Quote', 'textarea' ),
+        'about_para3'   => array( 'About Paragraph 3', 'textarea' ),
+    );
+}
+
+// 2. Meta box
+function architech_portfolio_add_metabox() {
+    add_meta_box( 'cnss_portfolio_details', __( 'Project Details', 'architech-custom' ),
+        'architech_portfolio_render_metabox', 'cnss_portfolio', 'normal', 'high' );
+}
+add_action( 'add_meta_boxes', 'architech_portfolio_add_metabox' );
+
+function architech_portfolio_render_metabox( $post ) {
+    wp_nonce_field( 'cnss_portfolio_save', 'cnss_portfolio_nonce' );
+    echo '<style>.cnss-mb label{display:block;font-weight:600;margin:14px 0 4px;}.cnss-mb input[type=text],.cnss-mb textarea{width:100%;}.cnss-mb textarea{min-height:70px;}.cnss-gal-row{display:flex;align-items:center;gap:10px;margin:6px 0;}.cnss-gal-row input{flex:1;}.cnss-gal-prev{width:60px;height:44px;object-fit:cover;border:1px solid #ccc;}</style>';
+    echo '<div class="cnss-mb">';
+
+    // Gallery (5 image URL fields with media uploader)
+    echo '<label>Gallery Images (up to 5)</label>';
+    for ( $i = 1; $i <= 5; $i++ ) {
+        $val = esc_attr( get_post_meta( $post->ID, '_cnss_img_' . $i, true ) );
+        echo '<div class="cnss-gal-row">';
+        echo '<img class="cnss-gal-prev" src="' . $val . '" onerror="this.style.visibility=\'hidden\'" />';
+        echo '<input type="text" class="cnss-gal-url" name="cnss_img_' . $i . '" value="' . $val . '" placeholder="Image URL ' . $i . '" />';
+        echo '<button type="button" class="button cnss-gal-upload">Select</button>';
+        echo '</div>';
+    }
+
+    // Text / textarea fields
+    foreach ( architech_portfolio_fields() as $key => $meta ) {
+        $val = get_post_meta( $post->ID, '_cnss_' . $key, true );
+        echo '<label>' . esc_html( $meta[0] ) . '</label>';
+        if ( 'textarea' === $meta[1] ) {
+            echo '<textarea name="cnss_' . $key . '">' . esc_textarea( $val ) . '</textarea>';
+        } else {
+            echo '<input type="text" name="cnss_' . $key . '" value="' . esc_attr( $val ) . '" />';
+        }
+    }
+    echo '</div>';
+}
+
+// 3. Save handler
+function architech_portfolio_save( $post_id ) {
+    if ( ! isset( $_POST['cnss_portfolio_nonce'] ) || ! wp_verify_nonce( $_POST['cnss_portfolio_nonce'], 'cnss_portfolio_save' ) ) return;
+    if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ) return;
+    if ( ! current_user_can( 'edit_post', $post_id ) ) return;
+
+    for ( $i = 1; $i <= 5; $i++ ) {
+        if ( isset( $_POST['cnss_img_' . $i] ) ) {
+            update_post_meta( $post_id, '_cnss_img_' . $i, esc_url_raw( $_POST['cnss_img_' . $i] ) );
+        }
+    }
+    foreach ( architech_portfolio_fields() as $key => $meta ) {
+        if ( isset( $_POST['cnss_' . $key] ) ) {
+            update_post_meta( $post_id, '_cnss_' . $key, sanitize_textarea_field( wp_unslash( $_POST['cnss_' . $key] ) ) );
+        }
+    }
+}
+add_action( 'save_post_cnss_portfolio', 'architech_portfolio_save' );
+
+// 4. Media uploader on the CPT edit screen
+function architech_portfolio_admin_assets( $hook ) {
+    global $post_type;
+    if ( 'cnss_portfolio' !== $post_type ) return;
+    wp_enqueue_media();
+    $js = 'jQuery(function($){$(".cnss-gal-upload").on("click",function(e){e.preventDefault();var row=$(this).closest(".cnss-gal-row");var frame=wp.media({title:"Select Image",multiple:false});frame.on("select",function(){var url=frame.state().get("selection").first().toJSON().url;row.find(".cnss-gal-url").val(url);row.find(".cnss-gal-prev").attr("src",url).css("visibility","visible");});frame.open();});});';
+    wp_add_inline_script( 'jquery-core', $js );
+}
+add_action( 'admin_enqueue_scripts', 'architech_portfolio_admin_assets' );
+
+// 5. Front-end helpers (per-post, used by single-cnss_portfolio.php)
+function architech_pf_meta( $key, $default = '' ) {
+    $v = get_post_meta( get_the_ID(), '_cnss_' . $key, true );
+    return ( '' !== $v && null !== $v ) ? $v : $default;
+}
+function architech_pf_image( $index ) {
+    $v = get_post_meta( get_the_ID(), '_cnss_img_' . $index, true );
+    return ( '' !== $v ) ? esc_url( $v ) : architech_get_portfolio_image( $index );
+}

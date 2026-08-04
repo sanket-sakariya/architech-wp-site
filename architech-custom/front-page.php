@@ -810,78 +810,46 @@ body  .qodef-widget-block-a2442353 .qi-block-spacer{height: 50px;} body  .qodef-
 				<div class="elementor-widget-container">
 					<div class="qodef-shortcode qodef-m qodef-portfolio-list qodef-item-layout--info-below qodef-grid qodef-layout--columns qodef-gutter--large qodef-vertical-gutter--huge qodef-col-num--2 qodef-item-layout--info-below qodef-pagination--on qodef-pagination-type--load-more qodef-responsive--custom qodef-col-num--1440--2 qodef-col-num--1366--2 qodef-col-num--1024--2 qodef-col-num--768--1 qodef-col-num--680--1 qodef-col-num--480--1 qodef-swiper--show-pagination qodef-hover-animation--overlay" data-options="{&quot;plugin&quot;:&quot;tadao_core&quot;,&quot;module&quot;:&quot;post-types\/portfolio\/shortcodes&quot;,&quot;shortcode&quot;:&quot;portfolio-list&quot;,&quot;post_type&quot;:&quot;portfolio-item&quot;,&quot;next_page&quot;:&quot;2&quot;,&quot;max_pages_num&quot;:2,&quot;behavior&quot;:&quot;columns&quot;,&quot;images_proportion&quot;:&quot;full&quot;,&quot;columns&quot;:&quot;2&quot;,&quot;columns_responsive&quot;:&quot;custom&quot;,&quot;columns_1440&quot;:&quot;2&quot;,&quot;columns_1366&quot;:&quot;2&quot;,&quot;columns_1024&quot;:&quot;2&quot;,&quot;columns_768&quot;:&quot;1&quot;,&quot;columns_680&quot;:&quot;1&quot;,&quot;columns_480&quot;:&quot;1&quot;,&quot;space&quot;:&quot;large&quot;,&quot;vertical_space&quot;:&quot;huge&quot;,&quot;slider_disable_hidden_slides_on_tablet&quot;:&quot;no&quot;,&quot;posts_per_page&quot;:&quot;4&quot;,&quot;orderby&quot;:&quot;date&quot;,&quot;order&quot;:&quot;ASC&quot;,&quot;additional_params&quot;:&quot;tax&quot;,&quot;tax&quot;:&quot;portfolio-category&quot;,&quot;tax_slug&quot;:&quot;smart-living&quot;,&quot;layout&quot;:&quot;info-below&quot;,&quot;hover_animation_info-below&quot;:&quot;overlay&quot;,&quot;hover_animation_info-on-hover&quot;:&quot;fade-in&quot;,&quot;title_tag&quot;:&quot;h5&quot;,&quot;custom_margin&quot;:&quot;yes&quot;,&quot;display_info&quot;:&quot;categories&quot;,&quot;appear_animation&quot;:&quot;no&quot;,&quot;pagination_type&quot;:&quot;load-more&quot;,&quot;pagination_top_margin&quot;:&quot;margin-top: 62px&quot;,&quot;info_below_content_margin_top&quot;:&quot;11px&quot;,&quot;object_class_name&quot;:&quot;TadaoCore_Portfolio_List_Shortcode&quot;,&quot;taxonomy_filter&quot;:&quot;portfolio-category&quot;,&quot;additional_query_args&quot;:{&quot;tax_query&quot;:[{&quot;taxonomy&quot;:&quot;portfolio-category&quot;,&quot;field&quot;:&quot;slug&quot;,&quot;terms&quot;:&quot;smart-living&quot;}]},&quot;space_value&quot;:50}">
 		<div class="qodef-grid-inner">
-		<article class="qodef-e qodef-grid-item qodef-item--full qodef-custom-margin post-2812 portfolio-item type-portfolio-item status-publish hentry portfolio-category-smart-living">
+<?php
+$cnss_q = new WP_Query( array(
+    "post_type"      => "cnss_portfolio",
+    "posts_per_page" => 4,
+    "orderby"        => "date",
+    "order"          => "ASC",
+) );
+if ( $cnss_q->have_posts() ) :
+    while ( $cnss_q->have_posts() ) : $cnss_q->the_post();
+        $cnss_link = get_permalink();
+        $cnss_img1 = get_post_meta( get_the_ID(), "_cnss_img_1", true );
+        $cnss_thumb = has_post_thumbnail() ? get_the_post_thumbnail_url( get_the_ID(), "full" ) : ( $cnss_img1 ? $cnss_img1 : architech_get_portfolio_image(1) );
+        $cnss_cat = get_post_meta( get_the_ID(), "_cnss_category", true );
+?>
+<article class="qodef-e qodef-grid-item qodef-item--full qodef-custom-margin portfolio-item type-portfolio-item status-publish hentry">
 	<div class="qodef-e-inner">
 		<div class="qodef-e-media">
-				<div class="qodef-e-media-image">
-		<a itemprop="url" href="/pavilion/" target="_self">
-			<img loading="lazy" decoding="async" width="1000" height="1000" src="https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-1.jpg" class="attachment-full size-full" alt="s" srcset="https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-1.jpg 1000w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-1-600x600.jpg 600w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-1-100x100.jpg 100w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-1-800x800.jpg 800w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-1-300x300.jpg 300w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-1-150x150.jpg 150w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-1-768x768.jpg 768w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-1-650x650.jpg 650w" sizes="(max-width: 1000px) 100vw, 1000px">		</a>
-	</div>
+			<div class="qodef-e-media-image">
+				<a itemprop="url" href="<?php echo esc_url( $cnss_link ); ?>">
+					<img loading="lazy" decoding="async" src="<?php echo esc_url( $cnss_thumb ); ?>" class="attachment-full size-full" alt="<?php echo esc_attr( get_the_title() ); ?>">
+				</a>
+			</div>
 		</div>
-		<div class="qodef-e-content" style="margin-top:11px" data-swiper-parallax="-140" data-swiper-parallax-duration="1200">
+		<div class="qodef-e-content" style="margin-top:11px">
 			<h5 itemprop="name" class="qodef-e-title entry-title">
-	<a itemprop="url" class="qodef-e-title-link" href="/pavilion/" target="_self">
-		Studio Hiroshi	</a>
-</h5>
-				<div class="qodef-e-categories">
-		<a href="/pavilion/" rel="tag">Smart living</a>	</div>
+				<a itemprop="url" class="qodef-e-title-link" href="<?php echo esc_url( $cnss_link ); ?>"><?php echo esc_html( get_the_title() ); ?></a>
+			</h5>
+			<?php if ( $cnss_cat ) : ?>
+			<div class="qodef-e-categories">
+				<a href="<?php echo esc_url( $cnss_link ); ?>" rel="tag"><?php echo esc_html( $cnss_cat ); ?></a>
+			</div>
+			<?php endif; ?>
 		</div>
 	</div>
 </article>
-<article class="qodef-e qodef-grid-item qodef-item--full qodef-custom-margin post-2811 portfolio-item type-portfolio-item status-publish hentry portfolio-category-smart-living">
-	<div class="qodef-e-inner">
-		<div class="qodef-e-media">
-				<div class="qodef-e-media-image">
-		<a itemprop="url" href="/pavilion/" target="_self">
-			<img loading="lazy" decoding="async" width="1000" height="670" src="https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-2.jpg" class="attachment-full size-full" alt="s" srcset="https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-2.jpg 1000w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-2-600x402.jpg 600w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-2-800x536.jpg 800w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-2-300x201.jpg 300w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-2-768x515.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px">		</a>
-	</div>
-		</div>
-		<div class="qodef-e-content" style="margin-top:11px" data-swiper-parallax="-140" data-swiper-parallax-duration="1200">
-			<h5 itemprop="name" class="qodef-e-title entry-title">
-	<a itemprop="url" class="qodef-e-title-link" href="/pavilion/" target="_self">
-		Glass Wall	</a>
-</h5>
-				<div class="qodef-e-categories">
-		<a href="/pavilion/" rel="tag">Smart living</a>	</div>
-		</div>
-	</div>
-</article>
-<article class="qodef-e qodef-grid-item qodef-item--full qodef-custom-margin post-2810 portfolio-item type-portfolio-item status-publish hentry portfolio-category-smart-living">
-	<div class="qodef-e-inner" style="margin: 2.2% 0% 0% 0%">
-		<div class="qodef-e-media">
-				<div class="qodef-e-media-image">
-		<a itemprop="url" href="/pavilion/" target="_self">
-			<img loading="lazy" decoding="async" width="1000" height="670" src="https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-3.jpg" class="attachment-full size-full" alt="s" srcset="https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-3.jpg 1000w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-3-600x402.jpg 600w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-3-800x536.jpg 800w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-3-300x201.jpg 300w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-3-768x515.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px">		</a>
-	</div>
-		</div>
-		<div class="qodef-e-content" style="margin-top:11px" data-swiper-parallax="-140" data-swiper-parallax-duration="1200">
-			<h5 itemprop="name" class="qodef-e-title entry-title">
-	<a itemprop="url" class="qodef-e-title-link" href="/pavilion/" target="_self">
-		Creative Vision	</a>
-</h5>
-				<div class="qodef-e-categories">
-		<a href="/pavilion/" rel="tag">Smart living</a>	</div>
-		</div>
-	</div>
-</article>
-<article class="qodef-e qodef-grid-item qodef-item--full qodef-custom-margin post-2809 portfolio-item type-portfolio-item status-publish hentry portfolio-category-smart-living">
-	<div class="qodef-e-inner" style="margin: -30.8% 0% 0% 0%">
-		<div class="qodef-e-media">
-				<div class="qodef-e-media-image">
-		<a itemprop="url" href="/pavilion/" target="_self">
-			<img loading="lazy" decoding="async" width="1000" height="1000" src="https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-4.jpg" class="attachment-full size-full" alt="s" srcset="https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-4.jpg 1000w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-4-600x600.jpg 600w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-4-100x100.jpg 100w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-4-800x800.jpg 800w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-4-300x300.jpg 300w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-4-150x150.jpg 150w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-4-768x768.jpg 768w, https://tadao.qodeinteractive.com/wp-content/uploads/2023/05/h4-port-img-4-650x650.jpg 650w" sizes="(max-width: 1000px) 100vw, 1000px">		</a>
-	</div>
-		</div>
-		<div class="qodef-e-content" style="margin-top:11px" data-swiper-parallax="-140" data-swiper-parallax-duration="1200">
-			<h5 itemprop="name" class="qodef-e-title entry-title">
-	<a itemprop="url" class="qodef-e-title-link" href="/pavilion/" target="_self">
-		Svensson	</a>
-</h5>
-				<div class="qodef-e-categories">
-		<a href="/pavilion/" rel="tag">Smart living</a>	</div>
-		</div>
-	</div>
-</article>
+<?php
+    endwhile;
+    wp_reset_postdata();
+endif;
+?>
 	</div>
 		<div class="qodef-m-pagination qodef--load-more" style="margin-top: 62px">
 		<div class="qodef-m-pagination-inner">
