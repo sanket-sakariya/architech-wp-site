@@ -44,6 +44,17 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 .qodef-m-icon img.cnss-logo,.qodef-m-icon img[src*=cnss_logo]{display:none!important;}
 #qodef-page-header .qodef-header-sticky,.qodef-header-sticky-holder{display:none!important;}
 .qodef-header-logo-image.qodef--main.cnss-logo ~ .qodef-header-logo-image{display:none!important;}
+
+/* CNSS testimonial slider */
+.cnss-testi-slider{position:relative;max-width:1000px;margin:0 auto;padding:40px 60px;min-height:260px;text-align:center;}
+.cnss-testi-slide{position:absolute;left:0;right:0;top:40px;opacity:0;visibility:hidden;transition:opacity .8s ease,transform .8s ease;transform:translateY(20px);padding:0 60px;}
+.cnss-testi-slide.is-active{position:relative;opacity:1;visibility:visible;transform:translateY(0);}
+.cnss-testi-quote{color:#8e7861;font-size:34px;line-height:1.35;margin:0 0 26px;font-weight:500;}
+.cnss-testi-author{color:#cfc9c0;font-size:16px;}
+.cnss-testi-name{color:#fff;}
+.cnss-testi-arrow{position:absolute;top:50%;transform:translateY(-50%);background:none;border:none;color:#8e7861;font-size:30px;cursor:pointer;transition:.3s;z-index:3;}
+.cnss-testi-arrow:hover{color:#fff;}
+.cnss-testi-prev{left:0;}.cnss-testi-next{right:0;}
 </style>
 <style>
 
@@ -103,15 +114,7 @@ body  .qodef-widget-block-a2442353 .qi-block-spacer{height: 50px;} body  .qodef-
 <style>#qodef-page-mobile-header,.qodef-header-sticky{display:none!important}
 .qodef-header-logo-link img.cnss-logo{width:auto!important;height:100px!important;max-height:100px!important;max-width:none!important;flex:0 0 auto!important;}
 .qodef-header-logo-link.qodef-height--set{height:auto!important;max-height:none!important;}
-/* Center testimonial swiper (no JS running to position slides) */
-.qodef-testimonials-list .swiper-wrapper{transform:none!important;display:block!important;}
-.qodef-testimonials-list .swiper-slide{display:none!important;}
-.qodef-testimonials-list .swiper-slide:not(.swiper-slide-duplicate){display:block!important;width:100%!important;margin:0!important;opacity:1!important;}
-.qodef-testimonials-list .swiper-slide:not(.swiper-slide-duplicate) ~ .swiper-slide:not(.swiper-slide-duplicate){display:none!important;}
-.qodef-testimonials-list .qodef-e-inner,
-.qodef-testimonials-list .qodef-e-content,
-.qodef-testimonials-list .qodef-e-title,
-.qodef-testimonials-list .qodef-e-author{text-align:center!important;}
+
 /* Force scroll-triggered entrance animations visible (no JS to reveal them) */
 .qodef-icon-with-text,.qodef--appeared,[class*="qodef-appear"],.elementor-invisible{opacity:1!important;visibility:visible!important;transform:none!important;}
 /* Proper spacing for services icon grid */
@@ -688,67 +691,16 @@ body  .qodef-widget-block-a2442353 .qi-block-spacer{height: 50px;} body  .qodef-
 			<div class="elementor-widget-wrap elementor-element-populated">
 						<div class="elementor-element elementor-element-9076d15 elementor-widget elementor-widget-tadao_core_testimonials_list" data-id="9076d15" data-element_type="widget" data-e-type="widget" data-widget_type="tadao_core_testimonials_list.default">
 				<div class="elementor-widget-container">
-					<div class="qodef-shortcode qodef-m qodef-testimonials-list qodef-grid qodef-swiper-container qodef-col-num--1 qodef-item-layout--info-below qodef-responsive--predefined qodef-swiper--show-navigation-combo swiper-initialized swiper-horizontal swiper-pointer-events swiper-watch-progress swiper-backface-hidden qodef-swiper--initialized" data-options="{&quot;slidesPerView&quot;:&quot;1&quot;,&quot;spaceBetween&quot;:0,&quot;loop&quot;:true,&quot;autoplay&quot;:false,&quot;speed&quot;:&quot;&quot;,&quot;speedAnimation&quot;:&quot;&quot;,&quot;slideAnimation&quot;:&quot;&quot;,&quot;direction&quot;:&quot;&quot;,&quot;centeredSlides&quot;:&quot;&quot;,&quot;sliderScroll&quot;:&quot;&quot;,&quot;loopAdditionalSlides&quot;:&quot;&quot;}">
-    	<div class="swiper-wrapper" id="swiper-wrapper-929f64723928683b" aria-live="polite" style="transition-duration: 0ms; transform: translate3d(-1100px, 0px, 0px);"><div class="qodef-e swiper-slide swiper-slide-duplicate swiper-slide-prev swiper-slide-duplicate-next" data-swiper-slide-index="1" role="group" aria-label="2 / 2" style="width: 1100px;">
-	<div class="qodef-e-inner">
-				<div class="qodef-e-content">
-				<h3 itemprop="name" class="qodef-e-title entry-title">
-		<?php echo esc_html( architech_get_content("home_testimonial_quote") ); ?>	</h3>
-						<div data-swiper-parallax="-120" data-swiper-parallax-duration="1000" style="transition-duration: 0ms; transform: translate3d(-120px, 0px, 0px);">
-					<p class="qodef-e-author">
-					<span class="qodef-e-author-job"><?php echo esc_html( architech_get_content("home_testimonial_job") ); ?></span>
-				<span class="qodef-e-author-name"><?php echo esc_html( architech_get_content("home_testimonial_name") ); ?></span>
-	</p>
-			</div>
-		</div>
-	</div>
+					<div class="cnss-testi-slider">
+<?php for($ti=1;$ti<=3;$ti++): $q=architech_get_content("testimonial_".$ti."_quote"); if(!$q) continue; ?>
+  <div class="cnss-testi-slide<?php echo $ti===1?" is-active":""; ?>">
+    <h3 class="cnss-testi-quote"><?php echo esc_html($q); ?></h3>
+    <div class="cnss-testi-author"><span class="cnss-testi-job"><?php echo esc_html(architech_get_content("testimonial_".$ti."_job")); ?></span> <span class="cnss-testi-name"><?php echo esc_html(architech_get_content("testimonial_".$ti."_name")); ?></span></div>
+  </div>
+<?php endfor; ?>
+  <button class="cnss-testi-arrow cnss-testi-prev" aria-label="Previous">&#10094;</button>
+  <button class="cnss-testi-arrow cnss-testi-next" aria-label="Next">&#10095;</button>
 </div>
-		<div class="qodef-e swiper-slide swiper-slide-visible swiper-slide-active" data-swiper-slide-index="0" role="group" aria-label="1 / 2" style="width: 1100px;">
-	<div class="qodef-e-inner">
-				<div class="qodef-e-content">
-				<h3 itemprop="name" class="qodef-e-title entry-title">
-		<?php echo esc_html( architech_get_content("home_testimonial_quote") ); ?>	</h3>
-						<div data-swiper-parallax="-120" data-swiper-parallax-duration="1000" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);">
-					<p class="qodef-e-author">
-					<span class="qodef-e-author-job"><?php echo esc_html( architech_get_content("home_testimonial_job") ); ?></span>
-				<span class="qodef-e-author-name"><?php echo esc_html( architech_get_content("home_testimonial_name") ); ?></span>
-	</p>
-			</div>
-		</div>
-	</div>
-</div>
-<div class="qodef-e swiper-slide swiper-slide-next swiper-slide-duplicate-prev" data-swiper-slide-index="1" role="group" aria-label="2 / 2" style="width: 1100px;">
-	<div class="qodef-e-inner">
-				<div class="qodef-e-content">
-				<h3 itemprop="name" class="qodef-e-title entry-title">
-		<?php echo esc_html( architech_get_content("home_testimonial_quote") ); ?>	</h3>
-						<div data-swiper-parallax="-120" data-swiper-parallax-duration="1000" style="transition-duration: 0ms; transform: translate3d(120px, 0px, 0px);">
-					<p class="qodef-e-author">
-					<span class="qodef-e-author-job"><?php echo esc_html( architech_get_content("home_testimonial_job") ); ?></span>
-				<span class="qodef-e-author-name"><?php echo esc_html( architech_get_content("home_testimonial_name") ); ?></span>
-	</p>
-			</div>
-		</div>
-	</div>
-</div>
-	<div class="qodef-e swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="0" role="group" aria-label="1 / 2" style="width: 1100px;">
-	<div class="qodef-e-inner">
-				<div class="qodef-e-content">
-				<h3 itemprop="name" class="qodef-e-title entry-title">
-		<?php echo esc_html( architech_get_content("home_testimonial_quote") ); ?>	</h3>
-						<div data-swiper-parallax="-120" data-swiper-parallax-duration="1000" style="transition-duration: 0ms; transform: translate3d(120px, 0px, 0px);">
-					<p class="qodef-e-author">
-					<span class="qodef-e-author-job"><?php echo esc_html( architech_get_content("home_testimonial_job") ); ?></span>
-				<span class="qodef-e-author-name"><?php echo esc_html( architech_get_content("home_testimonial_name") ); ?></span>
-	</p>
-			</div>
-		</div>
-	</div>
-</div></div>
-		<div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 1" aria-current="true"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span></div>
-		<div class="swiper-button-prev " tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-929f64723928683b"><svg class="qodef-svg--slider-arrow-left" xmlns="http://www.w3.org/2000/svg" width="57.5" height="10" viewBox="0 0 57.5 10"><g><path d="M6.482 5.25H57.5" fill="none" stroke="currentColor"></path><path d="m0 5 8.75-5v10Z" fill="currentColor"></path></g></svg></div>
-	<div class="swiper-button-next " tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-929f64723928683b"><svg class="qodef-svg--slider-arrow-right" xmlns="http://www.w3.org/2000/svg" width="57.5" height="10" viewBox="0 0 57.5 10"><g><path d="M51.018 5.25H0" fill="none" stroke="currentColor"></path><path d="m57.5 5-8.75 5V0Z" fill="currentColor"></path></g></svg></div>
-<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
 				</div>
 				</div>
 					</div>
@@ -1150,5 +1102,22 @@ body  .qodef-widget-block-a2442353 .qi-block-spacer{height: 50px;} body  .qodef-
 </footer>
 
 <?php wp_footer(); ?>
+
+<script>
+(function(){
+  var s=document.querySelector(".cnss-testi-slider"); if(!s) return;
+  var slides=s.querySelectorAll(".cnss-testi-slide"); if(slides.length<1) return;
+  var cur=0,timer=null;
+  function show(i){cur=(i+slides.length)%slides.length;slides.forEach(function(sl,k){sl.classList.toggle("is-active",k===cur);});}
+  function play(){timer=setInterval(function(){show(cur+1);},5000);}
+  function restart(){if(timer)clearInterval(timer);play();}
+  var prev=s.querySelector(".cnss-testi-prev"),next=s.querySelector(".cnss-testi-next");
+  if(prev)prev.addEventListener("click",function(){show(cur-1);restart();});
+  if(next)next.addEventListener("click",function(){show(cur+1);restart();});
+  s.addEventListener("mouseenter",function(){if(timer)clearInterval(timer);});
+  s.addEventListener("mouseleave",play);
+  if(slides.length>1) play();
+})();
+</script>
 </body>
 </html>

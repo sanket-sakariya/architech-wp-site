@@ -65,9 +65,15 @@ add_action( 'customize_register', 'architech_custom_customize_register' );
 /** Content defaults for testimonial + pavilion about section. */
 function architech_custom_content_defaults() {
     return array(
-        'home_testimonial_quote'  => '"Lorem ipsum dolor sit amet luctus sed do eiusmod temp nec ullam conse ctetur adipiscing elitse."',
-        'home_testimonial_job'    => 'Investor,',
-        'home_testimonial_name'   => 'Robert Green',
+        'testimonial_1_quote' => '"Lorem ipsum dolor sit amet luctus sed do eiusmod temp nec ullam conse ctetur adipiscing elitse."',
+        'testimonial_1_job'   => 'Investor,',
+        'testimonial_1_name'  => 'Robert Green',
+        'testimonial_2_quote' => '"Sed do eiusmod temp nec ullam conse ctetur adipiscing orem ipsum dolor sit amet luctus elitse."',
+        'testimonial_2_job'   => 'Designer,',
+        'testimonial_2_name'  => 'Helena Mour',
+        'testimonial_3_quote' => '"Working with CNSS was seamless from concept to completion; the result exceeded every expectation."',
+        'testimonial_3_job'   => 'Client,',
+        'testimonial_3_name'  => 'Marcus Lee',
         'pavilion_about_heading'  => 'About the Project',
         'pavilion_about_para1'    => 'Pavilion O is a study in light, structure and material honesty. Conceived as a quiet intervention within its landscape, the pavilion frames the surrounding environment through a disciplined grid of exposed columns and floor-to-ceiling glazing.',
         'pavilion_about_para2'    => 'The design balances mass and void: solid stone volumes anchor the plan while cantilevered planes float above, creating sheltered thresholds between interior and exterior. Every detail, from the joinery to the recessed lighting, is resolved to reinforce a sense of calm and permanence.',
@@ -86,27 +92,29 @@ function architech_get_content( $key ) {
 function architech_custom_content_customize_register( $wp_customize ) {
     // --- Homepage Testimonial ---
     $wp_customize->add_section( 'architech_home_testimonial', array(
-        'title'       => __( 'Home Testimonial', 'architech-custom' ),
-        'description' => __( 'Edit the testimonial quote and author shown on the homepage.', 'architech-custom' ),
+        'title'       => __( 'Home Testimonials', 'architech-custom' ),
+        'description' => __( 'Edit the testimonials shown in the homepage slider (auto-rotating).', 'architech-custom' ),
         'priority'    => 31,
     ) );
-    $t_fields = array(
-        'home_testimonial_quote' => array( 'Quote', 'textarea' ),
-        'home_testimonial_job'   => array( 'Author Role (e.g. Designer,)', 'text' ),
-        'home_testimonial_name'  => array( 'Author Name', 'text' ),
-    );
-    $defaults = architech_custom_content_defaults();
-    foreach ( $t_fields as $key => $meta ) {
-        $wp_customize->add_setting( $key, array(
-            'default'           => $defaults[ $key ],
-            'sanitize_callback' => 'sanitize_text_field',
-            'transport'         => 'refresh',
-        ) );
-        $wp_customize->add_control( $key, array(
-            'label'    => __( $meta[0], 'architech-custom' ),
-            'section'  => 'architech_home_testimonial',
-            'type'     => $meta[1],
-        ) );
+    $t_defaults = architech_custom_content_defaults();
+    for ( $n = 1; $n <= 3; $n++ ) {
+        $fields = array(
+            "testimonial_{$n}_quote" => array( "Testimonial $n — Quote", 'textarea' ),
+            "testimonial_{$n}_job"   => array( "Testimonial $n — Author Role", 'text' ),
+            "testimonial_{$n}_name"  => array( "Testimonial $n — Author Name", 'text' ),
+        );
+        foreach ( $fields as $key => $meta ) {
+            $wp_customize->add_setting( $key, array(
+                'default'           => isset( $t_defaults[ $key ] ) ? $t_defaults[ $key ] : '',
+                'sanitize_callback' => 'sanitize_text_field',
+                'transport'         => 'refresh',
+            ) );
+            $wp_customize->add_control( $key, array(
+                'label'   => __( $meta[0], 'architech-custom' ),
+                'section' => 'architech_home_testimonial',
+                'type'    => $meta[1],
+            ) );
+        }
     }
 
     // --- Pavilion About the Project ---

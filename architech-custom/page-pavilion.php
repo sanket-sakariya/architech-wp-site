@@ -456,7 +456,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<h3 class="cnss-extra-heading"><?php echo esc_html( architech_get_content("pavilion_about_heading") ); ?></h3>
 			<p><?php echo esc_html( architech_get_content("pavilion_about_para1") ); ?></p>
 			<p><?php echo esc_html( architech_get_content("pavilion_about_para2") ); ?></p>
-			<blockquote class="cnss-quote">“<?php echo esc_html( architech_get_content("pavilion_about_quote") ); ?>”</blockquote>
+			<div class="cnss-quote">“<?php echo esc_html( architech_get_content("pavilion_about_quote") ); ?>”</div>
 			<p><?php echo esc_html( architech_get_content("pavilion_about_para3") ); ?></p>
 		</div>
 	</div>
@@ -471,6 +471,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 .cnss-thumb:hover img{transform:scale(1.06);filter:grayscale(0);}
 .cnss-content-block{max-width:900px;}
 .cnss-content-block p{color:#b9b4ad;font-size:16px;line-height:1.9;margin:0 0 22px;}
+.cnss-quote::before,.cnss-quote::after{content:none!important;display:none!important;}
 .cnss-quote{border-left:3px solid #8e7861;margin:34px 0;padding:6px 0 6px 26px;color:#e6e1d8;font-size:22px;font-style:italic;line-height:1.6;}
 @media(max-width:768px){.cnss-thumb-grid{grid-template-columns:1fr 1fr;}.cnss-thumb img{height:200px;}}
 </style>
