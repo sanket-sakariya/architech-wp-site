@@ -197,7 +197,7 @@ function architech_register_portfolio_cpt() {
         'has_archive'  => true,
         'menu_icon'    => 'dashicons-portfolio',
         'supports'     => array( 'title', 'thumbnail' ),
-        'rewrite'      => array( 'slug' => 'portfolio-project' ),
+        'rewrite'      => array( 'slug' => 'portfolio' ),
         'show_in_rest' => true,
     ) );
 }
