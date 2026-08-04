@@ -417,30 +417,30 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		</div>
 					</div>
 					<div class="qodef-grid-item qodef-col--sidebar">
-						<h1 itemprop="name" class="qodef-e-title entry-title qodef-portfolio-title">Pavilion O</h1>
+						<h1 itemprop="name" class="qodef-e-title entry-title qodef-portfolio-title"><?php echo esc_html( architech_get_content("pavilion_title") ); ?></h1>
 						<div class="qodef-e qodef-portfolio-content">
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<p><?php echo esc_html( architech_get_content("pavilion_description") ); ?></p>
 </div>
 						<div class="qodef-portfolio-info">
 									<div class="qodef-e qodef-info--info-items">
 							<h5 class="qodef-e-label">Client: </h5>
 										<a class="qodef-e-info-item qodef--link" href="https://qodeinteractive.com/" target="_blank">
-							Qode Interactive							</a>
+							<?php echo esc_html( architech_get_content("pavilion_client") ); ?>							</a>
 					</div>
 			<div class="qodef-e qodef-info--info-items">
 							<h5 class="qodef-e-label">Architect: </h5>
 										<div class="qodef-e-info-item">
-							Tadao Architecture							</div>
+							<?php echo esc_html( architech_get_content("pavilion_architect") ); ?>							</div>
 					</div>
 			<div class="qodef-e qodef-info--info-items">
 							<h5 class="qodef-e-label">Location: </h5>
 										<div class="qodef-e-info-item">
-							France							</div>
+							<?php echo esc_html( architech_get_content("pavilion_location") ); ?>							</div>
 					</div>
 		<div class="qodef-e qodef-info--category">
 		<h5 class="qodef-e-label">Category: </h5>
 		<div class="qodef-e-category">
-			<a href="portfolio-category--built.html" rel="tag">Built</a>		</div>
+			<a href="portfolio-category--built.html" rel="tag"><?php echo esc_html( architech_get_content("pavilion_category") ); ?></a>		</div>
 	</div>
 						</div>
 					</div>

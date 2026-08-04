@@ -74,6 +74,12 @@ function architech_custom_content_defaults() {
         'testimonial_3_quote' => '"Working with CNSS was seamless from concept to completion; the result exceeded every expectation."',
         'testimonial_3_job'   => 'Client,',
         'testimonial_3_name'  => 'Marcus Lee',
+        'pavilion_title'        => 'Pavilion O',
+        'pavilion_description'  => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'pavilion_client'       => 'Qode Interactive',
+        'pavilion_architect'    => 'Tadao Architecture',
+        'pavilion_location'     => 'France',
+        'pavilion_category'     => 'Built',
         'pavilion_about_heading'  => 'About the Project',
         'pavilion_about_para1'    => 'Pavilion O is a study in light, structure and material honesty. Conceived as a quiet intervention within its landscape, the pavilion frames the surrounding environment through a disciplined grid of exposed columns and floor-to-ceiling glazing.',
         'pavilion_about_para2'    => 'The design balances mass and void: solid stone volumes anchor the plan while cantilevered planes float above, creating sheltered thresholds between interior and exterior. Every detail, from the joinery to the recessed lighting, is resolved to reinforce a sense of calm and permanence.',
@@ -115,6 +121,33 @@ function architech_custom_content_customize_register( $wp_customize ) {
                 'type'    => $meta[1],
             ) );
         }
+    }
+
+    // --- Pavilion Project Details ---
+    $wp_customize->add_section( 'architech_pavilion_details', array(
+        'title'       => __( 'Portfolio Details', 'architech-custom' ),
+        'description' => __( 'Edit the Pavilion title, description and project info (Client, Architect, etc.).', 'architech-custom' ),
+        'priority'    => 32,
+    ) );
+    $d_fields = array(
+        'pavilion_title'       => array( 'Project Title', 'text' ),
+        'pavilion_description' => array( 'Description', 'textarea' ),
+        'pavilion_client'      => array( 'Client', 'text' ),
+        'pavilion_architect'   => array( 'Architect', 'text' ),
+        'pavilion_location'    => array( 'Location', 'text' ),
+        'pavilion_category'    => array( 'Category', 'text' ),
+    );
+    foreach ( $d_fields as $key => $meta ) {
+        $wp_customize->add_setting( $key, array(
+            'default'           => $defaults[ $key ],
+            'sanitize_callback' => 'sanitize_textarea_field',
+            'transport'         => 'refresh',
+        ) );
+        $wp_customize->add_control( $key, array(
+            'label'   => __( $meta[0], 'architech-custom' ),
+            'section' => 'architech_pavilion_details',
+            'type'    => $meta[1],
+        ) );
     }
 
     // --- Pavilion About the Project ---
