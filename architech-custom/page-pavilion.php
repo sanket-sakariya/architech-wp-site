@@ -453,11 +453,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <section class="cnss-portfolio-extra">
 	<div class="cnss-extra-inner">
 		<div class="cnss-content-block">
-			<h3 class="cnss-extra-heading">About the Project</h3>
-			<p>Pavilion O is a study in light, structure and material honesty. Conceived as a quiet intervention within its landscape, the pavilion frames the surrounding environment through a disciplined grid of exposed columns and floor-to-ceiling glazing.</p>
-			<p>The design balances mass and void: solid stone volumes anchor the plan while cantilevered planes float above, creating sheltered thresholds between interior and exterior. Every detail, from the joinery to the recessed lighting, is resolved to reinforce a sense of calm and permanence.</p>
-			<blockquote class="cnss-quote">“Architecture should speak of its time and place, but yearn for timelessness.”</blockquote>
-			<p>Completed for Qode Interactive in France, the project reflects CNSS Design Studio’s commitment to considered, human-centred spaces that age gracefully alongside the people who inhabit them.</p>
+			<h3 class="cnss-extra-heading"><?php echo esc_html( architech_get_content("pavilion_about_heading") ); ?></h3>
+			<p><?php echo esc_html( architech_get_content("pavilion_about_para1") ); ?></p>
+			<p><?php echo esc_html( architech_get_content("pavilion_about_para2") ); ?></p>
+			<blockquote class="cnss-quote">“<?php echo esc_html( architech_get_content("pavilion_about_quote") ); ?>”</blockquote>
+			<p><?php echo esc_html( architech_get_content("pavilion_about_para3") ); ?></p>
 		</div>
 	</div>
 </section>

@@ -693,11 +693,11 @@ body  .qodef-widget-block-a2442353 .qi-block-spacer{height: 50px;} body  .qodef-
 	<div class="qodef-e-inner">
 				<div class="qodef-e-content">
 				<h3 itemprop="name" class="qodef-e-title entry-title">
-		"Lorem ipsum dolor sit amet luctus sed do eiusmod temp nec ullam conse  ctetur adipiscing elitse."	</h3>
+		<?php echo esc_html( architech_get_content("home_testimonial_quote") ); ?>	</h3>
 						<div data-swiper-parallax="-120" data-swiper-parallax-duration="1000" style="transition-duration: 0ms; transform: translate3d(-120px, 0px, 0px);">
 					<p class="qodef-e-author">
-					<span class="qodef-e-author-job">Investor,</span>
-				<span class="qodef-e-author-name">Robert Green</span>
+					<span class="qodef-e-author-job"><?php echo esc_html( architech_get_content("home_testimonial_job") ); ?></span>
+				<span class="qodef-e-author-name"><?php echo esc_html( architech_get_content("home_testimonial_name") ); ?></span>
 	</p>
 			</div>
 		</div>
@@ -707,11 +707,11 @@ body  .qodef-widget-block-a2442353 .qi-block-spacer{height: 50px;} body  .qodef-
 	<div class="qodef-e-inner">
 				<div class="qodef-e-content">
 				<h3 itemprop="name" class="qodef-e-title entry-title">
-		"Sed do eiusmod temp nec ullam conse  ctetur adipiscing orem ipsum dolor sit amet luctus elitse."	</h3>
+		<?php echo esc_html( architech_get_content("home_testimonial_quote") ); ?>	</h3>
 						<div data-swiper-parallax="-120" data-swiper-parallax-duration="1000" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);">
 					<p class="qodef-e-author">
-					<span class="qodef-e-author-job">Designer,</span>
-				<span class="qodef-e-author-name">Helena Mour</span>
+					<span class="qodef-e-author-job"><?php echo esc_html( architech_get_content("home_testimonial_job") ); ?></span>
+				<span class="qodef-e-author-name"><?php echo esc_html( architech_get_content("home_testimonial_name") ); ?></span>
 	</p>
 			</div>
 		</div>
@@ -721,11 +721,11 @@ body  .qodef-widget-block-a2442353 .qi-block-spacer{height: 50px;} body  .qodef-
 	<div class="qodef-e-inner">
 				<div class="qodef-e-content">
 				<h3 itemprop="name" class="qodef-e-title entry-title">
-		"Lorem ipsum dolor sit amet luctus sed do eiusmod temp nec ullam conse  ctetur adipiscing elitse."	</h3>
+		<?php echo esc_html( architech_get_content("home_testimonial_quote") ); ?>	</h3>
 						<div data-swiper-parallax="-120" data-swiper-parallax-duration="1000" style="transition-duration: 0ms; transform: translate3d(120px, 0px, 0px);">
 					<p class="qodef-e-author">
-					<span class="qodef-e-author-job">Investor,</span>
-				<span class="qodef-e-author-name">Robert Green</span>
+					<span class="qodef-e-author-job"><?php echo esc_html( architech_get_content("home_testimonial_job") ); ?></span>
+				<span class="qodef-e-author-name"><?php echo esc_html( architech_get_content("home_testimonial_name") ); ?></span>
 	</p>
 			</div>
 		</div>
@@ -735,11 +735,11 @@ body  .qodef-widget-block-a2442353 .qi-block-spacer{height: 50px;} body  .qodef-
 	<div class="qodef-e-inner">
 				<div class="qodef-e-content">
 				<h3 itemprop="name" class="qodef-e-title entry-title">
-		"Sed do eiusmod temp nec ullam conse  ctetur adipiscing orem ipsum dolor sit amet luctus elitse."	</h3>
+		<?php echo esc_html( architech_get_content("home_testimonial_quote") ); ?>	</h3>
 						<div data-swiper-parallax="-120" data-swiper-parallax-duration="1000" style="transition-duration: 0ms; transform: translate3d(120px, 0px, 0px);">
 					<p class="qodef-e-author">
-					<span class="qodef-e-author-job">Designer,</span>
-				<span class="qodef-e-author-name">Helena Mour</span>
+					<span class="qodef-e-author-job"><?php echo esc_html( architech_get_content("home_testimonial_job") ); ?></span>
+				<span class="qodef-e-author-name"><?php echo esc_html( architech_get_content("home_testimonial_name") ); ?></span>
 	</p>
 			</div>
 		</div>
